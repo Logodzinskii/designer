@@ -18,18 +18,22 @@
         <script type="text/javascript">
 
         $(document).ready(function(){
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
 
-            $(".owl-carousel:eq(0)").owlCarousel(
+            $(".owl-carousel").owlCarousel(
                 {
 
-                    margin:10,
+                    margin:40,
                     dots: false,
                     autoplay:false,
                     lazyLoad: true,
                     loop: true,
                     nav:true,
-                    navText: ['<',
-                        '>'],
+                    navText: ['',
+                        ''],
                     responsive:{
                         0:{
                             items:1
@@ -43,60 +47,7 @@
                     }
                 }
             );
-            $(".owl-carousel:eq(1)").owlCarousel(
-                {
 
-                    margin:10,
-
-                    responsive:{
-                        0:{
-                            items:1
-                        },
-                        600:{
-                            items:2
-                        },
-                        1000:{
-                            items:3
-                        }
-                    }
-                }
-            );
-            $(".owl-carousel:eq(2)").owlCarousel(
-                {
-
-                    margin:10,
-
-                    responsive:{
-                        0:{
-                            items:1
-                        },
-                        600:{
-                            items:2
-                        },
-                        1000:{
-                            items:3
-                        }
-                    }
-                }
-            );
-            $(".owl-carousel:eq(3)").owlCarousel(
-                {
-
-                    margin:10,
-                    autoplay:true,
-                    responsive:{
-                        0:{
-                            items:4
-                        },
-                        600:{
-                            items:4
-                        },
-                        1000:{
-                            items:8
-                        }
-                    }
-                }
-            );
         });
     </script>
     </head>
@@ -337,6 +288,296 @@
                             работающими в разных направлениях в процессе реализации
                             дизайн-проектов квартир и домов.
                         </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-primary">
+            <span class="fs-1 p-3">ОСНОВНЫЕ УСЛУГИ</span>
+            <div class="container-fluid">
+                <div class="col-11 col-sm-11 col-md-11 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-around flex-wrap">
+                    <div class="row col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xl-5 col-xxl-5 bg-warning m-3 d-flex align-content-between">
+                        <p class="fs-3 text-body p-3">ДИЗАЙН ПРОЕКТ</p>
+                        <ul class="list-unstyled p-3">
+                            <li>— Замер помещения</li>
+                            <li>— Разработка планировочных решений</li>
+                            <li>— 3D визуализация помещений</li>
+                            <li>— Техническая документация</li>
+                            <li>— Комплектация проекта</li>
+                            <li>— Смета строительных работ</li>
+                            <li>— Состав материалов с добавлением, мебель и оборудование, и где закупка!</li>
+                        </ul>
+                        <div class="row justify-content-between m-3" style="position: relative; height: 45px;" >
+                            <button type="button" class="rounded-circle bg-dark align-self-start fs-6 " style="width: 32px; height: 32px" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Проектирование площадей до 25 м² выполняется по фиксированной цене. Работы выполняются по договору и оплачиваются по этапам.">
+                                !
+                            </button>
+                            <div class="btn btn-secondary col-4 align-self-end text-nowrap" style="position: absolute; right: -20px">Оставить заявку</div>
+                        </div>
+                    </div>
+                    <div class="row col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xl-5 col-xxl-5 bg-dark m-3 d-flex align-content-between">
+                        <p class="fs-3 text-white p-3">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</p>
+                        <ul class="list-unstyled p-3">
+                            <li>— Разберем планировочное решение квартиры</li>
+                            <li>— Определим стиль будущего интерьера</li>
+                            <li>— Производим прибыль дизайн проекта</li>
+                            <li>— Рекомендации от дизайнера</li>
+                            <li>— Ответим на ваши вопросы</li>
+                        </ul>
+                        <div class="row justify-content-end m-3" style="position: relative; height: 45px;">
+                            <div class="btn btn-primary m-1 col-4 text-nowrap" style=" position: absolute; right: -20px">Записаться</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="fs-1 p-3">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</span>
+            <div class="container-fluid">
+                <div class="col-11 col-sm-11 col-md-11 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-around flex-wrap">
+                    <div class="row col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xl-5 col-xxl-5 bg-dark m-3 d-flex align-content-between">
+                        <p class="fs-3 text-white p-3">ОТДЕЛЬНЫЕ УСЛУГИ</p>
+                        <ul class="list-unstyled p-3">
+                            <li>— План расстановки мебели от 5 м2</li>
+                            <li>— Разработка планировочных решений от 20 м2</li>
+                            <li>— Техническая документация от 50 м2</li>
+                            <li>— 3D визуализация помещения от 50 м2</li>
+                            <li>— Выезд дизайнера на объект</li>
+                            <li>— Комплектация проекта</li>
+                        </ul>
+                        <div class="row justify-content-end m-3" style="position: relative; height: 45px;">
+                            <div class="btn btn-primary m-1 col-4 text-nowrap" style=" position: absolute; right: -20px">Узнать стоимость</div>
+                        </div>
+                    </div>
+                    <div class="row col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xl-5 col-xxl-5 bg-warning m-3 d-flex align-content-between">
+                        <p class="fs-3 text-body p-3">АВТОРСКИЙ НАДЗОР</p>
+                        <ul class="list-unstyled p-3">
+                            <li>— Еженедельное посещение объекта</li>
+                            <li>— Надзор за начальными строительно-отделочными работами</li>
+                            <li>— Проверка проектной документации подрядных организаций</li>
+                            <li>— Контроль исполнительской деятельности подрядных организаций</li>
+                            <li>— Предоставление прибыли о выполненных работах на объекте</li>
+                            <li>— Оперативное решение спорных вопросов</li>
+                            <li>— Доукомплектация объекта</li>
+                            <li>— Профессиональная фотофиксация готового интерьера
+                                (с семьей)</li>
+                        </ul>
+                        <div class="row justify-content-end m-3" style="position: relative; height: 45px;" >
+                            <div class="btn btn-secondary col-4 align-self-end text-nowrap" style="position: absolute; right: -20px">30 000 р/мес</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="fs-1 text-decoration-underline m-3">
+            НЕКОТОРЫЕ ИЗ НАШИХ РАБОТ
+        </p>
+        <section class="d-flex justify-content-center" style="margin-bottom: 100px">
+            <div class="owl-carousel owl-theme owl-loaded side col-11">
+                <div class="owl-stage-outer ">
+                    <div class="owl-stage ">
+                        <div class="owl-item ">
+                            <div class="card bg-info" style="min-height: 80vh; overflow: auto; border-radius:30px">
+                                <img src="{{asset('images/img.png')}}" width="auto" height="330px" />
+                                <div class="card-body bg-info">
+                                    <div class="card-header bg-info">
+                                        <h3 >«Горный щит» Кухня-Гостиная </h3>
+                                        <p class="text-dark">
+                                            S=25.2м2
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-info">
+                                        <div class="btn btn-primary m-1">Посмотреть</div>
+                                        <div class="btn btn-info m-1">Узнать стоимость</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="card bg-info" style="min-height: 80vh; overflow: auto; border-radius:30px">
+                                <img src="{{asset('images/img.png')}}" width="auto" height="330px" />
+                                <div class="card-body bg-info">
+                                    <div class="card-header bg-info">
+                                        <h3 >«Горный щит» Кухня-Гостиная </h3>
+                                        <p class="text-dark">
+                                            S=25.2м2
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-info">
+                                        <div class="btn btn-primary m-1">Посмотреть</div>
+                                        <div class="btn btn-info m-1">Узнать стоимость</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="card bg-info" style="min-height: 80vh; overflow: auto; border-radius:30px">
+                                <img src="{{asset('images/img.png')}}" width="auto" height="330px" />
+                                <div class="card-body bg-info">
+                                    <div class="card-header bg-info">
+                                        <h3 >«Горный щит» Кухня-Гостиная </h3>
+                                        <p class="text-dark">
+                                            S=25.2м2
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-info">
+                                        <div class="btn btn-primary m-1">Посмотреть</div>
+                                        <div class="btn btn-info m-1">Узнать стоимость</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="card bg-info" style="min-height: 80vh; overflow: auto; border-radius:30px">
+                                <img src="{{asset('images/img.png')}}" width="auto" height="330px"/>
+                                <div class="card-body bg-info">
+                                    <div class="card-header bg-info">
+                                        <h3 >«Горный щит» Кухня-Гостиная </h3>
+                                        <p class="text-dark">
+                                            S=25.2м2
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-info">
+                                        <div class="btn btn-primary m-1">Посмотреть</div>
+                                        <div class="btn btn-info m-1">Узнать стоимость</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="fs-1 text-decoration-underline m-3">
+            ПОСМОТРЕТЬ ПРИМЕР ДИЗАЙН-ПРОЕКТА
+        </p>
+        <section class="bg-light d-flex justify-content-start flex-wrap p-3">
+            <div class="p-3 w-100 d-flex justify-content-start flex-wrap align-items-center">
+                <svg style="width:50px;" class="t432__btn-img t432__btn-img_md" fill="#b89535" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><path class="st0" d="M80.6 90V16.4L64.2 0H10.6v90m55-81.5l6.5 6.5h-6.5V8.5zM15.6 85V5h45v15h15v65"></path><path d="M28.2 38h34.7v5H28.2zM28.2 50h34.7v5H28.2z"></path></svg>
+                <div class="text-body fs-4 m-1">Техническая документация</div>
+            </div>
+            <div class="p-3 w-100 d-flex justify-content-start flex-wrap align-items-center">
+                <svg style="width:50px;" class="t432__btn-img t432__btn-img_md" fill="#b89535" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><path class="st0" d="M80.6 90V16.4L64.2 0H10.6v90m55-81.5l6.5 6.5h-6.5V8.5zM15.6 85V5h45v15h15v65"></path><path d="M28.2 38h34.7v5H28.2zM28.2 50h34.7v5H28.2z"></path></svg>
+                <div class="text-body fs-4 m-1">Альбом визуализации</div>
+            </div>
+            <div class="p-3 w-100 d-flex justify-content-start flex-wrap align-items-center">
+                <svg style="width:50px;" class="t432__btn-img t432__btn-img_md" fill="#b89535" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><path class="st0" d="M80.6 90V16.4L64.2 0H10.6v90m55-81.5l6.5 6.5h-6.5V8.5zM15.6 85V5h45v15h15v65"></path><path d="M28.2 38h34.7v5H28.2zM28.2 50h34.7v5H28.2z"></path></svg>
+                <div class="text-body fs-4 m-1">Спецификация</div>
+            </div>
+        </section>
+        <p class="fs-1 m-3">
+            ЭТАПЫ НАШЕГО <br/>
+            СОТРУДНИЧЕСТВА
+        </p>
+        <section class="container-fluid">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-around flex-wrap">
+                <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start align-items-center row">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">01.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/1.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3">Заявка на нашем сайте или по телефону и WA</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start align-items-center row">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">02.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/2.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3">Встреча на объекте (замеры помещения) или у нас в офисе</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start align-items-center row">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">03.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/3.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3">Заполнение ТЗ и брифа, составление концепции проекта</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-around flex-wrap">
+                <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start align-items-center row">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">04.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/4.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3">Подписание договора</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start align-items-center row">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">05.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/5.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3">Планы: перепланировки, план мебели</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start align-items-center row">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">06.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/6.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3">Визуализация каждого из помещений</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-around flex-wrap">
+                <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start align-items-center row">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">07.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/7.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3">Техническая документация</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start align-items-center row">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">08.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/8.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3">Спецификация оборудования и материалов, чертежи мебели</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start align-items-center row">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">09.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/9.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3">Авторский надзор</p>
                     </div>
                 </div>
             </div>
