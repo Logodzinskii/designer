@@ -2903,9 +2903,9 @@ textarea.form-control-lg {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.45rem 0.75rem;
+  padding: 0.65rem 0.95rem;
   font-size: 1rem;
-  border-radius: 30px;
+  /*border-radius: 30px;*/
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4419,14 +4419,10 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-.accordion-button:not(.collapsed) {
-  color: #0c63e4;
-  background-color: #e7f1ff;
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
-}
 .accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-  transform: rotate(-180deg);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='currentColor'%3e%3cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z'/%3e%3c/svg%3e");
+  transform: rotate(-135deg);
+    fill: #b89535;
 }
 .accordion-button::after {
   flex-shrink: 0;
@@ -4434,7 +4430,7 @@ textarea.form-control-lg {
   height: 1.25rem;
   margin-left: auto;
   content: "";
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='currentColor'%3e%3cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-size: 1.25rem;
   transition: transform 0.2s ease-in-out;
@@ -4449,9 +4445,9 @@ textarea.form-control-lg {
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: #86b7fe;
+
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+
 }
 
 .accordion-header {
@@ -4460,31 +4456,10 @@ textarea.form-control-lg {
 
 .accordion-item {
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 1px solid #b89535;
+  border-bottom: 1px solid #b89535;
 }
-.accordion-item:first-of-type {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-.accordion-item:first-of-type .accordion-button {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-}
-.accordion-item:not(:first-of-type) {
-  border-top: 0;
-}
-.accordion-item:last-of-type {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-.accordion-item:last-of-type .accordion-button.collapsed {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
-}
-.accordion-item:last-of-type .accordion-collapse {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
+
 
 .accordion-body {
   padding: 1rem 1.25rem;
@@ -4492,6 +4467,7 @@ textarea.form-control-lg {
 
 .accordion-flush .accordion-collapse {
   border-width: 0;
+    color: #b89535;
 }
 .accordion-flush .accordion-item {
   border-right: 0;
@@ -5135,6 +5111,7 @@ textarea.form-control-lg {
   border: 0;
   border-radius: 0.25rem;
   opacity: 0.5;
+    filter: invert(1) grayscale(100%) brightness(200%);
 }
 .btn-close:hover {
   color: #000;
@@ -6027,6 +6004,7 @@ textarea.form-control-lg {
 .offcanvas-header .btn-close {
   padding: 0.5rem 0.5rem;
   margin: -0.5rem -0.5rem -0.5rem auto;
+
 }
 
 .offcanvas-title {

@@ -10,8 +10,29 @@
                 </div>
             </div>
         </div>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
-            ...
+        <div class="offcanvas offcanvas-end bg-primary" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+            <button type="button" class=" m-3 btn-close text-reset align-self-end" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+            <ul class="text-white list-unstyled text-start navbar-nav row col-md-12 mb-2 mb-lg-0 d-flex col justify-content-start align-content-between p-0 m-0">
+                <li class="nav-item m-2">
+                    <a  href="#" class="transition">Сотрудники</a>
+                </li>
+                <li class="nav-item  m-2">
+                    <a  href="#" class=" transition">О нас</a>
+                </li>
+                <li class="nav-item  m-2">
+                    <a  href="#" class=" transition">Портфолио</a>
+                </li>
+                <li class="nav-item  m-2">
+                    <a  href="#" class=" transition">Услуги</a>
+                </li>
+                <li class="nav-item  m-2">
+                    <a  href="#" class=" transition">Этапы работы</a>
+                </li>
+                <li class="nav-item  m-2">
+                    <a  href="#" class=" transition">Контакты</a>
+                </li>
+            </ul>
+            <div class="col-md-12 d-flex justify-content-center m-3"><b><a href=":tel" class="transition">8 912 688-08-92</a></b></div>
         </div>
     </nav>
 
