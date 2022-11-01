@@ -373,16 +373,16 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10" style="margin-bottom: 100px">
+        <section class="container-fluid col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="margin-bottom: 100px">
             <p id="projects" class="fs-1 text-decoration-underline marging-title">
                 НЕКОТОРЫЕ ИЗ НАШИХ РАБОТ
             </p>
             <div class="d-flex justify-content-around flex-wrap ">
 
-                @for($i=0; $i<=5; $i++)
-                    <div class="owl-item slider-up-info w-50 p-2">
+                @for($i=2; $i<=5; $i++)
+                    <div class="owl-item slider-up-info col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6  p-2">
                         <div class="card zoom-img" style=" position: relative">
-                            <img  src="{{asset('images/img.png')}}" width="auto" height="auto"  />
+                            <img  src="{{asset('images/projects/p'. $i .'/img.png')}}" width="auto" height="400"  />
                             <div class="card-body upper row">
                                 <h3 class="fs-3 col-10">«Горный щит» Кухня-Гостиная </h3>
                                 <a href="/project/" class="col-2 transition">
@@ -394,7 +394,11 @@
                         </div>
                     </div>
                 @endfor
-
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="btn btn-outline-primary fs-6 col-10 col-sm-10 col-md-6 col-lg-6 col-xl-4 col-xxl-4" >
+                    Посмотреть все работы
+                </div>
             </div>
         </section>
         <section class="container-fluid col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10">

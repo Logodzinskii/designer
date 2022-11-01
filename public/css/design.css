@@ -77,16 +77,17 @@
 .slider-up-info .upper{
     width: 100%;
     position: absolute;
-    bottom: -50px;
+    bottom: -10px;
     transition: 0.5s;
     opacity: 0;
-    z-index: 2;
+    z-index: -1;
 }
 .slider-up-info:hover .upper{
     position: absolute;
     bottom: 0;
     opacity: 0.9;
     transition: 0.5s;
+    z-index: 2;
 }
 
 .marging-title{
