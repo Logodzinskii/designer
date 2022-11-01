@@ -74,3 +74,33 @@
     opacity: 1;
     transition: opacity 0.9s;
 }
+.slider-up-info .upper{
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 2;
+}
+.slider-up-info:hover .upper{
+    position: absolute;
+    bottom: 0;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.marging-title{
+    margin: 12vh 0 1vh auto;
+}
+.zoom-img img{
+    padding: 5px;
+    transform: scale(1.0);
+    transition: 0.9s;
+}
+.zoom-img img:hover{
+    padding: 5px;
+    transform: scale(1.01);
+    transition: 0.9s;
+}
+
+

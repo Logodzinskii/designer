@@ -1,15 +1,11 @@
 <header class="p-0 m-0">
-    <nav class="navbar navbar-light navbar-expand-md navbar-expand-md fixed-top d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
-        <div class="container row-cols-2">
-            <div class="row col-12">
-                <div class="col-10"></div>
-                <div class="col-2">
-                    <button class="m-3 navbar-toggler rounded-circle bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" style="width: 60px; height: 60px">
+    <nav class="p-0 m-0 navbar navbar-light navbar-expand-md navbar-expand-md fixed-top d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+            <div class="row col-12 d-flex justify-content-end ">
+                    <button class="navbar-toggler rounded-circle bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" style="width: 60px; height: 60px">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                </div>
             </div>
-        </div>
+
         <div class="offcanvas offcanvas-end bg-primary" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
             <button type="button" class=" m-3 btn-close text-reset align-self-end" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
             <ul class="text-white list-unstyled text-start navbar-nav row col-md-12 mb-2 mb-lg-0 d-flex col justify-content-start align-content-between p-0 m-0">
