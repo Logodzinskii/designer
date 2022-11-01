@@ -52,7 +52,7 @@
             );
             $(".owl-carousel:eq(1)").owlCarousel(
                 {
-                    margin:40,
+                    margin:2,
                     dots: false,
                     autoplay:false,
                     lazyLoad: true,
@@ -68,7 +68,7 @@
                             items:2
                         },
                         1000:{
-                            items:3
+                            items:2
                         },
                         1800:{
                             items:3
@@ -377,28 +377,24 @@
             <p id="projects" class="fs-1 text-decoration-underline marging-title">
                 НЕКОТОРЫЕ ИЗ НАШИХ РАБОТ
             </p>
-            <div class="d-flex justify-content-center ">
-                <div class="owl-carousel owl-theme owl-loaded side col-10 col-sm-10 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div class="owl-stage-outer ">
-                        <div class="owl-stage ">
-                            @for($i=0; $i<=5; $i++)
-                            <div class="owl-item">
-                                <div class="card bg-info m-2" style="overflow: auto;">
-                                    <img src="{{asset('images/img.png')}}" width="auto" height="auto" />
-                                    <div class="card-body bg-info" >
-                                        <h3 class="fs-3">«Горный щит» Кухня-Гостиная </h3>
-                                        <p class="text-dark">
-                                            S=25.2м2
-                                        </p>
-                                        <button class="btn btn-primary text-body" ><a href="/project/" >Посмотреть</a></button>
-                                        <button class="btn btn-light">Оставить заявку</button>
-                                    </div>
-                                </div>
+            <div class="d-flex justify-content-around flex-wrap ">
+
+                @for($i=0; $i<=5; $i++)
+                    <div class="owl-item slider-up-info w-50 p-2">
+                        <div class="card zoom-img" style=" position: relative">
+                            <img  src="{{asset('images/img.png')}}" width="auto" height="auto"  />
+                            <div class="card-body upper row">
+                                <h3 class="fs-3 col-10">«Горный щит» Кухня-Гостиная </h3>
+                                <a href="/project/" class="col-2 transition">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                                    </svg>
+                                </a>
                             </div>
-                            @endfor
                         </div>
                     </div>
-                </div>
+                @endfor
+
             </div>
         </section>
         <section class="container-fluid col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10">
