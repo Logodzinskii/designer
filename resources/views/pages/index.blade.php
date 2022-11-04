@@ -379,9 +379,9 @@
             </p>
             <div class="d-flex justify-content-around flex-wrap ">
 
-                @for($i=2; $i<=5; $i++)
-                    <div class="owl-item slider-up-info col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6  p-2">
-                        <div class="card zoom-img" style=" position: relative">
+                @for($i=2; $i<=7; $i++)
+                    <div class="owl-item slider-up-info col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4  p-1">
+                        <div class="card bg-primary zoom-img" style=" position: relative">
                             <img  src="{{asset('images/projects/p'. $i .'/img.png')}}" width="auto" height="400"  />
                             <div class="card-body upper row">
                                 <h3 class="fs-3 col-10">«Горный щит» Кухня-Гостиная </h3>
@@ -397,7 +397,7 @@
             </div>
             <div class="d-flex justify-content-center">
                 <div class="btn btn-outline-primary fs-6 col-10 col-sm-10 col-md-6 col-lg-6 col-xl-4 col-xxl-4" >
-                    Посмотреть все работы
+                    Посмотреть другие работы
                 </div>
             </div>
         </section>

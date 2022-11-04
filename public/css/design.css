@@ -74,6 +74,7 @@
     opacity: 1;
     transition: opacity 0.9s;
 }
+
 .slider-up-info .upper{
     width: 100%;
     position: absolute;
