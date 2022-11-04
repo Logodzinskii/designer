@@ -94,5 +94,125 @@
             </div>
         </div>
         </section>
+        <section class="container-fluid col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10">
+            <p class="fs-1 marging-title ">
+                ЭТАПЫ НАШЕГО <br/>
+                СОТРУДНИЧЕСТВА
+            </p>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-around flex-wrap">
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">01.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/1.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3" style="max-height: 200px">Заявка на нашем сайте или по телефону и WA</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">02.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/2.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3 " style="max-height: 200px">Встреча на объекте (замеры помещения) или у нас в офисе</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">03.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/3.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3" style="max-height: 200px">Заполнение ТЗ и брифа, составление концепции проекта</p>
+                    </div>
+                </div>
+
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">04.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/4.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3" style="max-height: 200px">Подписание договора</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">05.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/5.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3" style="max-height: 200px">Планы: перепланировки, план мебели</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">06.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/6.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3" style="max-height: 200px">Визуализация каждого из помещений</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">07.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/7.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3" style="max-height: 200px">Техническая документация</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">08.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/8.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3" style="max-height: 200px">Спецификация оборудования и материалов, чертежи мебели</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
+                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <p class="col-2 p-0 m-0 text-warning">09.</p>
+                        <div class="border-bottom border-primary col"></div>
+                    </div>
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                        <div class="col-2 m-0 p-0">
+                            <img src="{{asset('images/icons/block/9.png')}}" width="40" />
+                        </div>
+                        <p class="col p-3" style="max-height: 200px">Авторский надзор</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white" style="min-height: 80vh">
+
+        </section>
         @include('pages/mainSections/footer')
     </body>
