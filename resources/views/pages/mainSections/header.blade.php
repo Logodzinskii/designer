@@ -10,19 +10,19 @@
             <button type="button" class=" m-3 btn-close text-reset align-self-end" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
             <ul class="text-white list-unstyled text-start navbar-nav row col-md-12 mb-2 mb-lg-0 d-flex col justify-content-start align-content-between p-0 m-0">
                 <li class="nav-item m-2">
-                    <a  href="#" class="transition">Сотрудники</a>
+                    <a  href="/personal/" class="transition">Сотрудники</a>
                 </li>
                 <li class="nav-item  m-2">
-                    <a  href="#" class=" transition">О нас</a>
+                    <a  href="/about/" class=" transition">О нас</a>
                 </li>
                 <li class="nav-item  m-2">
-                    <a  href="#" class=" transition">Портфолио</a>
+                    <a  href="/portfolio/" class=" transition">Портфолио</a>
                 </li>
                 <li class="nav-item  m-2">
-                    <a  href="#" class=" transition">Услуги</a>
+                    <a  href="/services/" class=" transition">Услуги</a>
                 </li>
                 <li class="nav-item  m-2">
-                    <a  href="#" class=" transition">Этапы работы</a>
+                    <a  href="/cooperation/" class=" transition">Этапы работы</a>
                 </li>
                 <li class="nav-item  m-2">
                     <a  href="#" class=" transition">Контакты</a>
@@ -41,19 +41,19 @@
                 </div>
                 <ul class="navbar-nav row col-md-12 mb-2 mb-lg-0 d-flex col justify-content-center p-0 m-0">
                     <li class="nav-item text-center m-3">
-                        <a  href="#" class="transition">Сотрудники</a>
+                        <a  href="/personal/" class="transition">Сотрудники</a>
                     </li>
                     <li class="nav-item text-center m-2">
-                        <a  href="#" class=" transition">О нас</a>
+                        <a  href="/about/" class=" transition">О нас</a>
                     </li>
                     <li class="nav-item text-center m-2">
-                        <a  href="#" class=" transition">Портфолио</a>
+                        <a  href="/portfolio/" class=" transition">Портфолио</a>
                     </li>
                     <li class="nav-item text-center m-2">
-                        <a  href="#" class=" transition">Услуги</a>
+                        <a  href="/services/" class=" transition">Услуги</a>
                     </li>
                     <li class="nav-item text-center m-2">
-                        <a  href="#" class=" transition">Этапы работы</a>
+                        <a  href="/cooperation/" class=" transition">Этапы работы</a>
                     </li>
                     <li class="nav-item text-center m-3">
                         <a  href="#" class=" transition">Контакты</a>
@@ -75,19 +75,19 @@
                 </button>
                 <ul class="navbar-nav col-md-7 mb-2 mb-lg-0 d-flex col justify-content-around">
                     <li class="nav-item">
-                        <a  href="#" class=" transition">Сотрудники</a>
+                        <a  href="/personal/" class=" transition">Сотрудники</a>
                     </li>
                     <li class="nav-item">
-                        <a  href="#" class=" transition">О нас</a>
+                        <a  href="/about/" class=" transition">О нас</a>
                     </li>
                     <li class="nav-item">
-                        <a  href="#" class=" transition">Портфолио</a>
+                        <a  href="/portfolio/" class=" transition">Портфолио</a>
                     </li>
                     <li class="nav-item">
-                        <a  href="#" class=" transition">Услуги</a>
+                        <a  href="/services/" class=" transition">Услуги</a>
                     </li>
                     <li class="nav-item">
-                        <a  href="#" class=" transition">Этапы работы</a>
+                        <a  href="/cooperation/" class=" transition">Этапы работы</a>
                     </li>
                     <li class="nav-item">
                         <a  href="#" class=" transition">Контакты</a>

@@ -19,3 +19,19 @@ Route::get('/', function () {
 Route::get('/project/', function () {
     return view('/pages/project/project');
 });
+Route::get('/personal/', function () {
+    return view('/pages/personal');
+});
+Route::get('/about/', function () {
+    return view('/pages/about');
+});
+Route::get('/services/', function () {
+    return view('/pages/services');
+});
+Route::get('/cooperation/', function () {
+    return view('/pages/cooperation');
+});
+Route::get('/portfolio/', function () {
+    return view('/pages/portfolio');
+});
+
