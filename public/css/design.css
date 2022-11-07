@@ -109,13 +109,14 @@
 }
 .design-select label{
     position: absolute;
-    top: 10px;
-    left: -5px;
+    bottom: 70px;
+    right: -5px;
     background-color: grey;
 }
 .design-select input{
     position: absolute;
-    top:15px;
+    bottom: 70px;
+    right: 10px;
 }
 .design-select:hover > label{
     background-color: #3c3c3c;

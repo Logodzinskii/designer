@@ -96,7 +96,7 @@
                         </div>
                     </div>
                     <div class="d-grid gap-2 col-6 mx-auto">
-                        <div class="btn btn-primary ">Узнать стоимость проекта</div>
+                        <div class="btn btn-primary fs-6">Узнать стоимость проекта</div>
                     </div>
                 </div>
             </div>
@@ -104,22 +104,22 @@
         <section>
             <div class="bg-light d-flex justify-content-center">
                 <div class="p-0 m-0 col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-between flex-wrap" style="min-height: 20vh">
-                    <div class="col-6 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-around flex-wrap">
-                        <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center" >
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-around flex-wrap">
+                        <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center" style="width:100%">
                             <p class="text-dark col-3 fs-1 text-center" >63</p>
                             <p class="text-body col-9 fs-6 text-start">созданных дизайн-проекта</p>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center" >
+                        <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center" style="width:100%">
                             <p class="text-dark col-3 fs-1 text-center">16</p>
                             <p class="text-body col-9 fs-6 text-start">подрядных организаций в разных направлениях</p>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-around flex-wrap">
-                        <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center " >
-                            <p class="text-dark col-3 fs-1 text-center">8</p>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-around flex-wrap">
+                        <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center " style="width:100%">
+                            <p class="text-dark col-3 fs-1 text-center">&nbsp;&nbsp;8</p>
                             <p class="text-body col-9 fs-6 text-start">реализованных проектов ежегодно</p>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center" >
+                        <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center" style="width:100%">
                             <p class="text-dark col-3 fs-1 text-center">10</p>
                             <p class="text-body col-9 fs-6 text-start">созданных дизайн-проектов ежегодно</p>
                         </div>
@@ -150,7 +150,7 @@
             </div>
             <div class="">
                 <div class=" d-flex justify-content-center align-items-center flex-wrap row " style="min-height: 100px">
-                    <a href="/#projects" class="btn btn-outline-primary fs-6 col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">Посмотреть другие проекты</a>
+                    <a href="/#projects" class="btn btn-outline-primary fs-6 col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">Посмотреть другие проекты</a>
                 </div>
             </div>
         </section>
@@ -160,17 +160,17 @@
             </p>
             <div class="bg-light d-flex ">
                 <div class="container-fluid col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10">
-                    <div class="d-flex justify-content-start flex-wrap align-items-center" style="margin-top: 25px; margin-bottom: 25px">
+                    <div class="d-flex justify-content-start flex-nowrap align-items-center" style="margin-top: 25px; margin-bottom: 25px">
                         <svg style="width:50px;" class="t432__btn-img t432__btn-img_md" fill="#b89535" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><path class="st0" d="M80.6 90V16.4L64.2 0H10.6v90m55-81.5l6.5 6.5h-6.5V8.5zM15.6 85V5h45v15h15v65"></path><path d="M28.2 38h34.7v5H28.2zM28.2 50h34.7v5H28.2z"></path></svg>
-                        <div class="text-body fs-4 m-1">Техническая документация</div>
+                        <div class="text-body fs-4 m-1 fs-3">Техническая документация</div>
                     </div>
-                    <div class="d-flex justify-content-start flex-wrap align-items-center" style="margin-bottom: 25px">
+                    <div class="d-flex justify-content-start flex-nowrap align-items-center" style="margin-bottom: 25px">
                         <svg style="width:50px;" class="t432__btn-img t432__btn-img_md" fill="#b89535" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><path class="st0" d="M80.6 90V16.4L64.2 0H10.6v90m55-81.5l6.5 6.5h-6.5V8.5zM15.6 85V5h45v15h15v65"></path><path d="M28.2 38h34.7v5H28.2zM28.2 50h34.7v5H28.2z"></path></svg>
-                        <div class="text-body fs-4 m-1">Альбом визуализации</div>
+                        <div class="text-body fs-4 m-1 fs-3">Альбом визуализации</div>
                     </div>
-                    <div class="d-flex justify-content-start flex-wrap align-items-center" style="margin-bottom: 25px">
+                    <div class="d-flex justify-content-start flex-nowrap align-items-center" style="margin-bottom: 25px">
                         <svg style="width:50px;" class="t432__btn-img t432__btn-img_md" fill="#b89535" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><path class="st0" d="M80.6 90V16.4L64.2 0H10.6v90m55-81.5l6.5 6.5h-6.5V8.5zM15.6 85V5h45v15h15v65"></path><path d="M28.2 38h34.7v5H28.2zM28.2 50h34.7v5H28.2z"></path></svg>
-                        <div class="text-body fs-4 m-1">Спецификация</div>
+                        <div class="text-body fs-4 m-1 fs-3">Спецификация</div>
                     </div>
                 </div>
             </div>
@@ -181,126 +181,45 @@
                 СОТРУДНИЧЕСТВА
             </p>
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-around flex-wrap">
+                @php
+                $arrPoint=[ '',
+                            'Заявка на нашем сайте или по телефону и WA',
+                            'Встреча на объекте (замеры помещения) или у нас в офисе',
+                            'Заполнение ТЗ и брифа, составление концепции проекта',
+                            'Подписание договора',
+                            'Планы: перепланировки, план мебели',
+                            'Визуализация каждого из помещений',
+                            'Техническая документация',
+                            'Спецификация оборудования и материалов, чертежи мебели',
+                            'Авторский надзор',
+                            ];
+                @endphp
+                @for($i=1; $i<=9; $i++)
                 <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
                     <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <p class="col-2 p-0 m-0 text-warning">01.</p>
+                        <p class="col-2 p-0 m-0 text-warning fs-6">0{{$i}}.</p>
                         <div class="border-bottom border-primary col"></div>
                     </div>
-                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
+                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0" style="height:100%">
                         <div class="col-2 m-0 p-0">
-                            <img src="{{asset('images/icons/block/1.png')}}" width="40" />
+                            <img src="{{asset('images/icons/block/'.$i.'.png')}}" width="40" />
                         </div>
-                        <p class="col p-3" style="max-height: 200px">Заявка на нашем сайте или по телефону и WA</p>
+                        <p class="col p-3 fs-6" style="max-height: 200px">{{$arrPoint[$i]}}</p>
                     </div>
                 </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
-                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <p class="col-2 p-0 m-0 text-warning">02.</p>
-                        <div class="border-bottom border-primary col"></div>
-                    </div>
-                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <div class="col-2 m-0 p-0">
-                            <img src="{{asset('images/icons/block/2.png')}}" width="40" />
-                        </div>
-                        <p class="col p-3 " style="max-height: 200px">Встреча на объекте (замеры помещения) или у нас в офисе</p>
-                    </div>
-                </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
-                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <p class="col-2 p-0 m-0 text-warning">03.</p>
-                        <div class="border-bottom border-primary col"></div>
-                    </div>
-                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <div class="col-2 m-0 p-0">
-                            <img src="{{asset('images/icons/block/3.png')}}" width="40" />
-                        </div>
-                        <p class="col p-3" style="max-height: 200px">Заполнение ТЗ и брифа, составление концепции проекта</p>
-                    </div>
-                </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
-                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <p class="col-2 p-0 m-0 text-warning">04.</p>
-                        <div class="border-bottom border-primary col"></div>
-                    </div>
-                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <div class="col-2 m-0 p-0">
-                            <img src="{{asset('images/icons/block/4.png')}}" width="40" />
-                        </div>
-                        <p class="col p-3" style="max-height: 200px">Подписание договора</p>
-                    </div>
-                </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
-                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <p class="col-2 p-0 m-0 text-warning">05.</p>
-                        <div class="border-bottom border-primary col"></div>
-                    </div>
-                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <div class="col-2 m-0 p-0">
-                            <img src="{{asset('images/icons/block/5.png')}}" width="40" />
-                        </div>
-                        <p class="col p-3" style="max-height: 200px">Планы: перепланировки, план мебели</p>
-                    </div>
-                </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
-                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <p class="col-2 p-0 m-0 text-warning">06.</p>
-                        <div class="border-bottom border-primary col"></div>
-                    </div>
-                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <div class="col-2 m-0 p-0">
-                            <img src="{{asset('images/icons/block/6.png')}}" width="40" />
-                        </div>
-                        <p class="col p-3" style="max-height: 200px">Визуализация каждого из помещений</p>
-                    </div>
-                </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
-                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <p class="col-2 p-0 m-0 text-warning">07.</p>
-                        <div class="border-bottom border-primary col"></div>
-                    </div>
-                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <div class="col-2 m-0 p-0">
-                            <img src="{{asset('images/icons/block/7.png')}}" width="40" />
-                        </div>
-                        <p class="col p-3" style="max-height: 200px">Техническая документация</p>
-                    </div>
-                </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
-                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <p class="col-2 p-0 m-0 text-warning">08.</p>
-                        <div class="border-bottom border-primary col"></div>
-                    </div>
-                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <div class="col-2 m-0 p-0">
-                            <img src="{{asset('images/icons/block/8.png')}}" width="40" />
-                        </div>
-                        <p class="col p-3" style="max-height: 200px">Спецификация оборудования и материалов, чертежи мебели</p>
-                    </div>
-                </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
-                    <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <p class="col-2 p-0 m-0 text-warning">09.</p>
-                        <div class="border-bottom border-primary col"></div>
-                    </div>
-                    <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
-                        <div class="col-2 m-0 p-0">
-                            <img src="{{asset('images/icons/block/9.png')}}" width="40" />
-                        </div>
-                        <p class="col p-3" style="max-height: 200px">Авторский надзор</p>
-                    </div>
-                </div>
+                @endfor
             </div>
             <p class="marging-title"></p>
         </section>
         @include('pages/mainSections/form')
         <p class="marging-title bg-primary"></p>
         <section class="row d-flex justify-content-center align-content-around p-0 m-0" >
-            <div class="container-fluid d-flex justify-content-around flex-wrap p-0 m-0 col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10" >
-                <div class="col-12 col-md-12 col-lg-4">
-                    <span class="text-dark fs-1">VOZHEV_DESIGN</span><br/>
-                    <span class="text-white fs-1"> НАШИ ОТЛИЧИЯ</span>
+            <div class="container-fluid d-flex justify-content-around flex-wrap p-0 m-0 col-12" >
+                <div class="col-10 col-md-10 col-lg-3">
+                    <span class="text-dark fs-2">VOZHEV_DESIGN</span><br/>
+                    <span class="text-white fs-2"> НАШИ ОТЛИЧИЯ</span>
                 </div>
-                <div class="col-12 col-md-12 col-lg-7 bg-warning text-white" style="margin-bottom: 100px;">
+                <div class="col-10 col-md-10 col-lg-7 bg-warning text-white" style="margin-bottom: 100px;">
                     <p class="p-3 fs-5" >Создание индивидуального дизайн-проекта, включая рабочую документацию,
                         для дальнейшей его реализации бригадой строителей в заранее установленные
                         сроки и в рамках оговоренного бюджета
@@ -397,7 +316,7 @@
             </p>
             <div>
                 <div class="bg-primary accordion-item col-12 ">
-                    <p class="fs-3">Замер помещения</p>
+                    <p class="fs-3 text-dark">Замер помещения</p>
                     <p class="fs-6">Имеется спорная точка зрения, гласящая примерно следующее: элементы политического процесса, вне зависимости от их уровня, должны быть своевременно верифицированы.</p>
                     <p class=" col-3 " id="panelsStayOpen-headingOne">
                         <button class="bg-primary text-white accordion-button-light fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
@@ -405,7 +324,7 @@
                         </button>
                     </p>
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body text-white">
+                        <div class="accordion-body text-dark">
                             <ul class="list-unstyled">
                                 <li>— Встреча с дизайнером на объекте</li>
                                 <li>— Фото и видеофиксация помещений</li>
@@ -415,7 +334,7 @@
                     </div>
                 </div>
                 <div class="bg-primary accordion-item col-12">
-                    <p class="fs-3"> Разработка планировочных решений</p>
+                    <p class="fs-3 text-dark"> Разработка планировочных решений</p>
                     <p class="fs-6">Повседневная практика показывает, что высокое качество позиционных исследований способствует повышению качества экспериментов, поражающих по своей масштабности и грандиозности.</p>
                     <p class=" col-3 " id="panelsStayOpen-heading2">
                         <button class="bg-primary text-white accordion-button-light fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="false" aria-controls="panelsStayOpen-collapse2">
@@ -423,7 +342,7 @@
                         </button>
                     </p>
                     <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-heading2">
-                        <div class="accordion-body text-white">
+                        <div class="accordion-body text-dark">
                             <ul class="list-unstyled">
                                 <li>— Встреча с дизайнером на объекте</li>
                                 <li>— Фото и видеофиксация помещений</li>
