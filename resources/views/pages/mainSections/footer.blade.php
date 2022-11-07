@@ -24,7 +24,7 @@
                         <a href="https://vk.com/design_vozhev" class="transition" style="text-decoration: none">DESIGN_VOZHEV</a>
                     </span>
                 </div>
-                <div class="btn btn-outline-primary fs-6 col-10 col-sm-10 col-md-6 col-lg-6 col-xl-4 col-xxl-4" >
+                <div class="btn btn-outline-primary fs-6 col-10 col-sm-10 col-md-8 col-lg-8 col-xl-6 col-xxl-4" >
                     Заказать обратный звонок
                 </div>
             </div>
