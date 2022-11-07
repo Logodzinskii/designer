@@ -357,7 +357,7 @@
                                         <div class="overflow-hidden rounded-3 proporcional">
                                             <img src="{{asset('images/form/'. $i .'.jpg')}}" class="calc-height"/>
                                         </div>
-                                        <p style="margin-top: 20px">ДОМ</p>
+                                        <p style="margin-top: 20px">Выбор</p>
                                     </div>
                                 @endfor
                             </div>
@@ -375,7 +375,7 @@
                                         <div class="overflow-hidden rounded-3 proporcional">
                                             <img src="{{asset('images/form/'. $i .'.jpg')}}" class="calc-height"/>
                                         </div>
-                                        <p style="margin-top: 20px">ДОМ</p>
+                                        <p style="margin-top: 20px">Выбор</p>
                                     </div>
                                 @endfor
                             </div>
@@ -426,13 +426,13 @@
                                             <div class="overflow-hidden rounded-3 proporcional">
                                                 <img src="" class="calc-height" id="resStyle" />
                                             </div>
-                                            <p style="margin-top: 20px">ДОМ</p>
+                                            <p style="margin-top: 20px">Выбор</p>
                                         </div>
                                         <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 design-select proporcional" >
                                             <div class="overflow-hidden rounded-3 proporcional">
                                                 <img src="" class="calc-height" id="resType" />
                                             </div>
-                                            <p style="margin-top: 20px">ДОМ</p>
+                                            <p style="margin-top: 20px">Выбор</p>
                                         </div>
                                         <div class="col-12 design-select proporcional">
                                             <div class="overflow-hidden rounded-3 proporcional d-flex justify-content-center">
