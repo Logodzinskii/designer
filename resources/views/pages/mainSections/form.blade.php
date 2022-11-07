@@ -1,6 +1,6 @@
 <section class="row" style="min-height: 80vh">
-    <div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 bg-light d-flex justify-content-center align-items-center">
-        <div class="bg-primary w-75" style="margin-top: 50px; margin-bottom: 50px">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 bg-light d-flex justify-content-center align-items-center">
+        <div class="bg-primary col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8 col-xxl-8" style="margin-top: 50px; margin-bottom: 50px">
             <form>
                 <p class="fs-4">ЗАПОЛНИТЬ</p>
                 <div class="progress">
@@ -24,12 +24,12 @@
                                 <div class="overflow-hidden rounded-3 proporcional">
                                     <img src="{{asset('images/form/'. $i .'.jpg')}}" class="calc-height"/>
                                 </div>
-                                <p style="margin-top: 20px">{{$arr[$i]}}</p>
+                                <p class="fs-4" style="margin-top: 20px">{{$arr[$i]}}</p>
                             </div>
                         @endfor
                     </div>
                     <div class="d-flex justify-content-around quest flex-wrap">
-                        <div class="fs-4 text-warning p-3 col-12">КАКОЙ СТИЛЬ ПРЕДПОЧИТАЕТЕ ?</div>
+                        <div class="fs-6 text-warning p-3 col-12">КАКОЙ СТИЛЬ ПРЕДПОЧИТАЕТЕ ?</div>
                         @for($i=4; $i<=6; $i++)
                             <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-3 design-select proporcional">
                                 <input type="radio"  id="type-design"{{$i}} name="type-design">
@@ -42,7 +42,7 @@
                                 <div class="overflow-hidden rounded-3 proporcional">
                                     <img src="{{asset('images/form/'. $i .'.jpg')}}" class="calc-height"/>
                                 </div>
-                                <p style="margin-top: 20px">{{$arr[$i]}}</p>
+                                <p style="margin-top: 20px; font-size: 0.8rem;">{{$arr[$i]}}</p>
                             </div>
                         @endfor
                     </div>
