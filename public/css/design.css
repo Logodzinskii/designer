@@ -104,5 +104,115 @@
     transform: scale(1.01);
     transition: 0.9s;
 }
+.design-select{
+    position: relative;
+}
+.design-select label{
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    background-color: grey;
+}
+.design-select input{
+    position: absolute;
+    top:15px;
+}
+.design-select:hover > label{
+    background-color: #3c3c3c;
+}
+.design-select input[type=radio]:checked ~ .d1{
+    background-color: #b89535;
+}
 
+.number {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+}
+.number input[type="number"] {
+    background-color: #212121;
+    border: #212121 1px solid;
+    border-bottom: 1px solid #b89535;
+    color: #b89535 !important;
+    display: block;
+    height: 60px;
+    line-height: 32px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    box-sizing: border-box;
+    text-align: center;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+}
+.number input[type="number"]::-webkit-outer-spin-button,
+.number input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+.number-minus {
+    background-color: #212121;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    display: block;
+    text-align: center;
+    border: none;
+    font-size: 36px;
+    font-weight: 600;
+    color: #b89535 !important;
+
+}
+.number-plus {
+    background-color: #212121;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    display: block;
+    text-align: center;
+    border: none;
+    font-size: 36px;
+    font-weight: 600;
+    color: #b89535 !important;
+}
+.user-form input{
+    background-color: #212121;
+    border: #212121 1px solid;
+    border-bottom: 1px solid #b89535;
+    color: #b89535 !important;
+    display: block;
+    height: 60px;
+    line-height: 32px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+}
+.proporcional {
+
+    padding: 2px;
+}
+
+img.calc-height {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+
+}
 
