@@ -17,23 +17,20 @@
         <form class="d-flex justify-content-around flex-wrap user-form col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" method="post" enctype="multipart/form-data" action="{{route('create.portfolio')}}">
             @csrf
             @foreach($portfolios as $portfolio)
-                <div class="col-4 row d-flex justify-content-center">
-                    <div class="fs-5 text-dark">
-                        <p>Название: {{$portfolio->name}}</p>
+                <div class="card bg-info col-12 col-lg-4" style="min-height: 80vh; overflow: auto; border-radius:30px">
+                    <img src="{{asset($portfolio->images)}}" width="auto" height="330px" />
+                    <div class="card-body bg-info ">
+                        <div class="card-header bg-info">
+                            <h3 >{{$portfolio->name}}</h3>
+                            <p class="text-dark">
+                                {{$portfolio->options}}
+                            </p>
+                        </div>
+                        <div class="card-footer bg-info">
+                            <div class="btn btn-primary m-1">Удалить</div>
+                            <div class="btn btn-info m-1">Редактировать</div>
+                        </div>
                     </div>
-                    <div class="fs-6 text-white">
-                        <p>Категория: {{$portfolio->category}}</p>
-                    </div>
-                    <div class="fs-6 text-white">
-                        <p>Описание: {{$portfolio->options}}</p>
-                    </div>
-                    <div>
-                        <p>Тэг: {{$portfolio->tag}}</p>
-                    </div>
-                    <div>
-                        <img src="{{asset($portfolio->images)}}" height="150"/>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Удалить</button>
                 </div>
             @endforeach
         </form>
