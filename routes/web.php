@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ControllerPortfolio;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,9 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('/pages/index');
 });
-Route::get('/project/', function () {
-    return view('/pages/project/project');
-});
+Route::get('/project/{category}/{id}', [ControllerPortfolio::class, 'showPortfolio']);
+
 Route::get('/personal/', function () {
     return view('/pages/personal');
 });
@@ -31,7 +31,17 @@ Route::get('/services/', function () {
 Route::get('/cooperation/', function () {
     return view('/pages/cooperation');
 });
-Route::get('/portfolio/', function () {
-    return view('/pages/portfolio');
-});
+Route::get('/portfolio/', [ControllerPortfolio::class, 'index']);
 
+Route::get('/admin/portfolios/view/', [ControllerPortfolio::class, 'adminIndex'])->name('admin.index')->middleware('auth');
+
+Route::get('/admin/create/portfolio/', function () {
+    return view('/admin/adminPortfolio');
+})->middleware('auth');
+Route::post('/create/portfolio/', [ControllerPortfolio::class, 'createPortfolio'])
+    ->name('create.portfolio');
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

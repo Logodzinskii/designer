@@ -58,7 +58,7 @@
             </div>
             <div class=" bg-light ">
                 <div class="container-fluid col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10" style="min-height: 20vh">
-                <h1 class="fs-1 text-body">Загородный дом</h1>
+                <h1 class="fs-1 text-body"></h1>
                     <p class="fs-5 text-body">
                         Дизайн интерьера загородного дома в КП Горный щит, общей площадью 82 м².
                     </p>
@@ -83,7 +83,7 @@
             @endfor
         <div class="bg-light">
             <div class=" d-flex justify-content-center align-items-center flex-wrap row " style="min-height: 100px">
-                <a href="/#projects" class="btn btn-outline-primary fs-6 col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">Посмотреть другие проекты</a>
+                <a href="/portfolio/" class="btn btn-outline-primary fs-6 col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">Посмотреть другие проекты</a>
             </div>
         </div>
         </section>
