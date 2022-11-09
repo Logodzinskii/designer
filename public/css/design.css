@@ -114,9 +114,10 @@
     background-color: grey;
 }
 .design-select input{
+    visibility: hidden;
     position: absolute;
-    bottom: 70px;
-    right: 10px;
+    bottom: 65px;
+    right: 6px;
 }
 .design-select:hover > label{
     background-color: #3c3c3c;

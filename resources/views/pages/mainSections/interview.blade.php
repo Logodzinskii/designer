@@ -1,9 +1,9 @@
 <section class="container-fluid col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10">
-    <div class="fs-1 d-flex justify-content-start">
+    <div class="fs-2 d-flex justify-content-start">
         <p class="col-6 col-sm-5 col-lg-4 col-xl-4 col-xxl-3 text-dark">ИНТЕРВЬЮ:</p>
         <p class="col-6 col-sm-7 col-lg-8 col-xl-8 col-xxl-7 text-white">ВОЖЕВ ИВАН</p>
     </div>
-    <div class="fs-1 d-flex justify-content-start">
+    <div class="fs-2 d-flex justify-content-start">
         <p class="col-6 col-sm-5 col-lg-4 col-xl-4 col-xxl-3 text-dark">ИНТЕРВЬЮЕР:</p>
         <p class="col-6 col-sm-7 col-lg-8 col-xl-8 col-xxl-7 text-white">ВИКТОРИЯ-ЖУРНАЛ «AD RUSSIA»</p>
     </div>
