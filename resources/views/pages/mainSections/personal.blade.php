@@ -1,7 +1,6 @@
 <section class="bg-primary fool-window-width d-flex justify-content-center align-items-center row flex-wrap" style="margin-bottom: 100px">
-
-    <div id="projects" class="compressed-window-width d-flex align-self-center fs-1 text-decoration-underline" style="margin-top: 100px;margin-bottom: 40px">
-        <div>
+    <div class="compressed-window-width d-flex align-self-center fs-1 marging-title">
+        <div class="marging-title-border-bottom">
             В НАШЕЙ КОМАНДЕ <br/>
             7 ШТАТНЫХ СОТРУДНИКОВ
         </div>

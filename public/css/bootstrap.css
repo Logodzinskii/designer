@@ -93,16 +93,28 @@ h2, .h2 {
   }
 }
 @media (min-width: 230px) and (max-width: 465px) {
+    .fool-window-width{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
     h2, .h2 {
         font-size: calc(0.6rem + 0.7vw); ;
     }
 }
-@media (min-width: 465px) and (max-width: 920px) {
+@media (min-width: 465px) and (max-width: 768px) {
+    .fool-window-width{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
     h2, .h2 {
         font-size: calc(0.6rem + 1.7vw); ;
     }
 }
-
+@media (min-width: 768px) and (max-width: 920px) {
+    h2, .h2 {
+        font-size: calc(0.6rem + 1.7vw); ;
+    }
+}
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);

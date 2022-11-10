@@ -17,7 +17,7 @@
 .owl-prev {
     border: 2px #b89535 solid !important;
     color: #b89535;
-    left: -35px;
+    left: -20px;
     transition: background-color 0.5s;
 }
 .owl-prev:after{
@@ -43,7 +43,7 @@
 .owl-next {
     border: 2px #b89535 solid !important;
     color: #b89535;
-    right: -35px;
+    right: -20px;
     transition: background-color 0.5s
 }
 .owl-next:after{
@@ -67,10 +67,14 @@
 }
 
 .trans{
+    border: 4px solid #FFFFFF;
     opacity: 0;
     transition: opacity 0.9s;
 }
-.trans:hover{
+.trans img{
+    opacity: 0.3;
+}
+.trans, .trans img:hover{
     opacity: 1;
     transition: opacity 0.9s;
 }
@@ -92,7 +96,7 @@
 }
 
 .marging-title{
-    margin: 12vh 0 1vh auto;
+    margin-top: 10vh;
 }
 .zoom-img img{
     padding: 5px;
@@ -311,3 +315,7 @@ img.calc-height {
     border-radius: 50%;
 }
 
+.marging-title-border-bottom{
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 10vh;
+}

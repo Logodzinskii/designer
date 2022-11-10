@@ -1,19 +1,21 @@
-<section class="h2 container-fluid compressed-window-width">
-    <div class="d-flex justify-content-start">
-        <p class=" col-4 col-sm-5 col-lg-4 col-xl-4 col-xxl-3 text-dark">ИНТЕРВЬЮ:</p>
-        <p class=" col-8 col-sm-7 col-lg-8 col-xl-8 col-xxl-9 text-white text-end">ВОЖЕВ ИВАН</p>
-    </div>
-    <div class="d-flex justify-content-start">
-        <p class=" col-4 col-sm-5 col-md-4 col-lg-4 col-xl-4 col-xxl-3 text-dark">ИНТЕРВЬЮЕР:</p>
-        <div class=" col-8 col-sm-7 col-md-8 col-lg-8 col-xl-8 col-xxl-9 text-white d-flex justify-content-end flex-wrap">
-            <div class="align-self-start text-end">ВИКТОРИЯ-</div>
-            <div class="align-self-start text-end">ЖУРНАЛ «AD RUSSIA»</div>
+<section class="h2 fool-window-width d-flex justify-content-center">
+    <div class="compressed-window-width row">
+        <div class="d-flex justify-content-start">
+            <p class=" col-4 col-sm-5 col-lg-4 col-xl-4 col-xxl-3 text-dark">ИНТЕРВЬЮ:</p>
+            <p class=" col-8 col-sm-7 col-lg-8 col-xl-8 col-xxl-9 text-white text-end">ВОЖЕВ ИВАН</p>
+        </div>
+        <div class="d-flex justify-content-start">
+            <p class=" col-4 col-sm-5 col-md-4 col-lg-4 col-xl-4 col-xxl-3 text-dark">ИНТЕРВЬЮЕР:</p>
+            <div class=" col-8 col-sm-7 col-md-8 col-lg-8 col-xl-8 col-xxl-9 text-white d-flex justify-content-end flex-wrap">
+                <div class="align-self-start text-end">ВИКТОРИЯ-</div>
+                <div class="align-self-start text-end">ЖУРНАЛ «AD RUSSIA»</div>
+            </div>
         </div>
     </div>
-</section>
-<section class="container-fluid bg-white d-flex justify-content-center">
-    <div class="accordion d-flex justify-content-center flex-wrap compressed-window-width"  id="accordionPanelsStayOpenExample">
 
+</section>
+<section class="bg-white fool-window-width d-flex justify-content-center">
+    <div class="accordion d-flex justify-content-center flex-wrap compressed-window-width"  id="accordionPanelsStayOpenExample">
         <div class="accordion-item col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <h2 class="accordion-header" id="panelsStayOpen-heading1">
                 <div class="accordion-button collapsed lh-base" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse1" aria-expanded="false" aria-controls="panelsStayOpen-collapse1">
@@ -81,9 +83,9 @@
         </div>
         <div class="accordion-item col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <h2 class="accordion-header" id="panelsStayOpen-heading5">
-                <button class="accordion-button collapsed lh-base" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <div class="accordion-button collapsed lh-base" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                     Виктория: “Иван, а вот такой вопрос: у клиента готов проект, а где ему заказывать чистовой материал и мебель?
-                    В IKEA уже не сходишь…”</button>
+                    В IKEA уже не сходишь…”</div>
             </h2>
             <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading5">
                 <div class="accordion-body text-body lh-base">

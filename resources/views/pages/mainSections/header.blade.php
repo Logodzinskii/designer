@@ -92,7 +92,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="d-flex justify-content-between align-items-center container">
+                <div class="d-flex justify-content-between align-items-center col-12">
                     <div class="navbar-brand d-flex align-items-center p-0 m-0" style="min-height: 80px">
                         <a href="/" >
                             <img src="{{asset('images/logo/large_light.png')}}" width="220" height="40"/>

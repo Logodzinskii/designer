@@ -1,6 +1,7 @@
-<section class="fool-window-width d-flex justify-content-center align-items-center row flex-wrap" style="margin-bottom: 100px">
-    <div id="projects" class="compressed-window-width d-flex align-self-center fs-1 text-decoration-underline">
-        <div>
+
+<section class="fool-window-width d-flex justify-content-center align-items-center row flex-wrap">
+    <div id="projects" class="compressed-window-width d-flex align-self-center fs-1 marging-title">
+        <div class="marging-title-border-bottom">
             НЕКОТОРЫЕ ИЗ НАШИХ РАБОТ
         </div>
     </div>
@@ -23,7 +24,7 @@
     </div>
     <div class="">
         <div class=" d-flex justify-content-center align-items-center flex-wrap row " style="min-height: 100px">
-            <a href="/#projects" class="btn btn-outline-primary fs-6 col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">Посмотреть другие проекты</a>
+            <a href="/portfolio/" class="btn btn-outline-primary fs-6 col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">Посмотреть другие проекты</a>
         </div>
     </div>
 </section>
