@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+    $(".compressed-window-width").addClass('col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-8');
+    $(".fool-window-width").addClass('col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12');
+
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
     var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
         return new bootstrap.Popover(popoverTriggerEl)

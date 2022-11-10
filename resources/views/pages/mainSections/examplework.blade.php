@@ -1,10 +1,12 @@
-<section class="container-fluid col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="margin-bottom: 100px">
-    <p id="projects" class="fs-1 text-decoration-underline marging-title">
-        НЕКОТОРЫЕ ИЗ НАШИХ РАБОТ
-    </p>
+<section class="fool-window-width d-flex justify-content-center align-items-center row flex-wrap" style="margin-bottom: 100px">
+    <div id="projects" class="compressed-window-width d-flex align-self-center fs-1 text-decoration-underline">
+        <div>
+            НЕКОТОРЫЕ ИЗ НАШИХ РАБОТ
+        </div>
+    </div>
     <div class="d-flex justify-content-around flex-wrap ">
         @for($i=2; $i<=7; $i++)
-            <div class="owl-item slider-up-info col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4  p-0">
+            <div class="owl-item slider-up-info col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                 <div class="card bg-primary zoom-img" style=" position: relative">
                     <img  src="{{asset('images/projects/p'. $i .'/img.png')}}" width="auto" height="400"  />
                     <div class="card-body upper row">

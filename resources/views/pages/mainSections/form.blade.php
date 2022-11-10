@@ -1,6 +1,6 @@
-<section class="row" style="min-height: 80vh">
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 bg-light d-flex justify-content-center align-items-center">
-        <div class="bg-primary col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8 col-xxl-8" style="margin-top: 50px; margin-bottom: 50px">
+<section style="min-height: 80vh">
+    <div class="fool-window-width bg-light d-flex justify-content-center align-items-center">
+        <div class="compressed-window-width bg-primary" style="margin-top: 50px; margin-bottom: 50px">
             <form>
                 <p class="fs-4">ЗАПОЛНИТЬ</p>
                 <div class="progress">

@@ -84,7 +84,7 @@
                 <div class="p-0 m-0 row d-flex align-content-around" style="height: 80%">
                     <div class="row p-0 m-0">
                         <div class="col d-flex justify-content-center">
-                            <img src="{{asset('images/icons/ico_logo_dark.png')}}" width="100">
+                            <img src="{{asset('images/icons/main_index_logo.png')}}" width="180">
                         </div>
                     </div>
                     <div class="row p-0 m-0">

@@ -1,9 +1,10 @@
-<section class="container-fluid col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10">
-    <p class="fs-1 marging-title ">
-        ЭТАПЫ НАШЕГО <br/>
-        СОТРУДНИЧЕСТВА
-    </p>
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-around flex-wrap">
+<section class="bg-primary fool-window-width d-flex justify-content-center align-items-center row flex-wrap" style="margin-bottom: 100px">
+    <div id="projects" class="compressed-window-width d-flex align-self-center fs-1 text-decoration-underline">
+        <div>
+            ЭТАПЫ НАШЕГО СОТРУДНИЧЕСТВА
+        </div>
+    </div>
+    <div class="compressed-window-width d-flex justify-content-around flex-wrap" style="margin-top: 100px">
         @php
             $arrPoint=[ '',
                         'Заявка на нашем сайте или по телефону и WA',
@@ -18,10 +19,10 @@
                         ];
         @endphp
         @for($i=1; $i<=9; $i++)
-            <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row p-3">
+            <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-start align-items-center row" style="padding-right: 8px">
                 <div class="d-flex justify-content-start flex-wrap align-items-center row p-0 m-0">
                     <p class="col-2 p-0 m-0 text-warning fs-6">0{{$i}}.</p>
-                    <div class="border-bottom border-primary col"></div>
+                    <div class="border-bottom border-primary col p-1"></div>
                 </div>
                 <div class=" d-flex justify-content-start flex-wrap align-items-center row p-0 m-0" style="height:100%">
                     <div class="col-2 m-0 p-0">
