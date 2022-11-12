@@ -25,40 +25,43 @@
                         // нет необходимости писать $(this), так как "this" - это уже объект jQuery
                         // выражение $(this) будет эквивалентно $($('#element'));
                         var img = this.find('img');
-
+                        var arr = [];
                         img.each(function (i){
                             var width_div = $(this).parent().parent().width();
                             var height_img = this.height;
                             var width_img = this.width;
-                            var width_new_img = width_div;
-
-                            var height_new_img = width_new_img*(3/4);
-                            //$(this).css('height', height_new_img);
-                            //$(this).css('width', width_new_img);
                             if(width_img/height_img > 1){
                                 //альбомный формат
-                                height_new_img = (width_new_img*(3/4));
-                                //$(this).css('height', height_new_img);
                                 $('#album').append(this);
                             }else{
                                 //книжный
-
-                                $('#book').append('<div>');
-
-                                $('#book div:last').addClass('col-6');
-                                $('#book div:last').append(this);
-
+                                arr.push(this);
+                                /*$('#book').append('<div>');
+                                $('#book div:last').addClass('col-6 aspect-ratio-box');
+                                $('#book div:last').append(this);*/
                             }
-                            console.log('w' + width_img + 'x' + width_new_img + 'div' + width_div);
-                            console.log('h' + height_img + 'x' + height_new_img);
                         })
+                        console.log(arr.length);
+                        for(let i=0 ; i<=(arr.length/2); i+=2)
+                        {
+                            $('#book').append('<div>');
+                            $('#book div').addClass('fool-window-width d-flex justify-content-center flex-wrap books');
+                            $.each(arr.slice(i,i+2),function(index, value){
+                                console.log(value);
+                                $('#book div').append('<div>');
+                                $('#book div div:last').addClass('col-6 aspect-ratio-box p-0 m-0');
+                                $('#book div div:last').append(value);
+                                console.log(i);
+                            });
+                        }
+
+                        $('.books:eq(0)').clone(true,true).after($('#album div div'));
 
                         this.fadeIn('normal', function(){
 
                             // тут "this" - это элемент дерева DOM
 
                         });
-
                     };
                 })( jQuery );
             $(".plugin").myPlugin();
@@ -111,24 +114,24 @@
             </div>
             <div class="plugin fool-window-width d-flex justify-content-center flex-wrap">
                 @for($i = 1; $i <= 7; $i++)
-                    <div>
+                    <div class="overflow-hidden">
                         <img src="{{asset('images/projects/p1/'. $i .'.jpg')}}">
                     </div>
                 @endfor
             </div>
+            <div id="album" class="fool-window-width d-flex justify-content-center flex-wrap aspect-ratio-box zoom-img">
 
+            </div>
+            <hr/>
+            <div id="book" class="fool-window-width d-flex justify-content-center flex-wrap zoom-img">
+
+            </div>
         <div class="bg-light">
             <div class=" d-flex justify-content-center align-items-center flex-wrap row " style="min-height: 100px">
                 <a href="/portfolio/" class="btn btn-outline-primary fs-6 col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">Посмотреть другие проекты</a>
             </div>
         </div>
-            <div id="album" class="fool-window-width">
 
-            </div>
-            <hr/>
-            <div id="book" class="fool-window-width d-flex justify-content-center flex-wrap">
-
-            </div>
         </section>
         @include('pages/mainSections/cooperation')
         @include('pages/mainSections/form')

@@ -319,3 +319,13 @@ img.calc-height {
     border-bottom: 1px solid #FFFFFF;
     margin-bottom: 10vh;
 }
+
+.aspect-ratio-box img {
+    /* Image should match parent box size
+    position: absolute;
+    left: 0;
+    top: 0;*/
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
