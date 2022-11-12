@@ -100,7 +100,7 @@ class ControllerPortfolio extends Controller
         /**
          * Получу зашифрованное имя папки проекта
          */
-        $pathToDelete = explode('/', $portfolio[0]['images']);
+        $pathToDelete = explode('/', $portfolio[0]['main_images']);
         $pathToDelete = 'images/projects/'.$pathToDelete[2].'/'.$pathToDelete[3];
         $this::remove_dir($pathToDelete);
         portfolio::where('id', $id)->delete();
