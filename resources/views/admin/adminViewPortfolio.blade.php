@@ -23,7 +23,7 @@
             @csrf
             @foreach($portfolios as $portfolio)
                 <div class="card bg-info col-12 col-lg-4" style="min-height: 80vh; overflow: auto; border-radius:30px">
-                    <img src="{{asset($portfolio->images)}}" width="auto" height="330px" />
+                    <img src="{{asset($portfolio->main_images)}}" width="auto" height="330px" />
                     <div class="card-body bg-info ">
                         <div class="card-header bg-info">
                             <h3 >{{$portfolio->name}}</h3>
@@ -32,7 +32,7 @@
                             </p>
                         </div>
                         <div class="card-footer bg-info">
-                            <div class="btn btn-primary m-1">Удалить</div>
+                            <div class="btn btn-primary m-1"><a href="{{route('admin.delete.portfolio',['id'=>$portfolio->id])}}">Удалить</a></div>
                             <div class="btn btn-info m-1">Редактировать</div>
                         </div>
                     </div>

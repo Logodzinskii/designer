@@ -20,5 +20,6 @@ class portfolio extends Model
         'tag',
         'main_images',
         'images',
+        'scheme_images',
     ];
 }

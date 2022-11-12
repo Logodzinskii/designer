@@ -31,7 +31,10 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
-
+@font-face {
+    font-family: 'GOST type A';
+    src: url('../public/fonts/GOST_A.TTF');
+}
 *,
 *::before,
 *::after {
@@ -46,7 +49,7 @@
 
 body {
   margin: 0;
-  font-family: 'TTCommons', sans-serif !important;
+  font-family: 'TTCommons', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -55,7 +58,11 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.project-information{
+    font-family: 'GOST type A';
+    background-image: url("");
 
+}
 hr {
   margin: 1rem 0;
   color: inherit;

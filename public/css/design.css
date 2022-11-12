@@ -320,11 +320,28 @@ img.calc-height {
     margin-bottom: 10vh;
 }
 
-.aspect-ratio-box img {
+.aspect-ratio-box  img{
     /* Image should match parent box size
     position: absolute;
     left: 0;
     top: 0;*/
+    max-width: 100%;
+
+
+}
+
+.project-information{
+
+    font-family: 'GOST type A';
+}
+.project-card{
+    background-image: url("../public/images/content/4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.project-scheme img
+{
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;

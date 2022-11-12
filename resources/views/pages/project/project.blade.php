@@ -32,39 +32,40 @@
                             var width_img = this.width;
                             if(width_img/height_img > 1){
                                 //альбомный формат
+                                $('#album').append('<div>');
+                                $('#album').addClass('d-flex row justify-content-between aspect-ratio-box flex-wrap p-0 m-0');
                                 $('#album').append(this);
                             }else{
                                 //книжный
                                 arr.push(this);
-                                /*$('#book').append('<div>');
-                                $('#book div:last').addClass('col-6 aspect-ratio-box');
-                                $('#book div:last').append(this);*/
                             }
                         })
                         console.log(arr.length);
+                        var sum = 0;
                         for(let i=0 ; i<=(arr.length/2); i+=2)
                         {
                             $('#book').append('<div>');
-                            $('#book div').addClass('fool-window-width d-flex justify-content-center flex-wrap books');
+                            $('#book').children().last().addClass('d-flex justify-content-between flex-wrap books');
                             $.each(arr.slice(i,i+2),function(index, value){
                                 console.log(value);
-                                $('#book div').append('<div>');
-                                $('#book div div:last').addClass('col-6 aspect-ratio-box p-0 m-0');
-                                $('#book div div:last').append(value);
+                                $('#book').children().last().append('<div>');
+                                $('#book').children().last().children().addClass('col-6 aspect-ratio-box p-0 m-0');
+                                $('#book').children().last().children().last().append(value);
                                 console.log(i);
                             });
+                            sum++;
                         }
-
-                        $('.books:eq(0)').clone(true,true).after($('#album div div'));
-
-                        this.fadeIn('normal', function(){
-
-                            // тут "this" - это элемент дерева DOM
-
-                        });
+                        for(let i=0; i<=sum; i++){
+                            var elem_book = $('.books:eq('+i+')').clone(true);
+                            $('.books:eq('+i+')').remove();
+                            $('#album').children().eq(i+2).after(elem_book);
+                            console.log(sum);
+                        }
                     };
                 })( jQuery );
             $(".plugin").myPlugin();
+
+
 
             $(".owl-carousel").owlCarousel(
                 {
@@ -94,36 +95,46 @@
                     }
                 }
             );
-
         });
     </script>
     </head>
     <body class="">
         @include('pages/mainSections/header')
         <section class="bg-primary fool-window-width d-flex row justify-content-center zoom-img">
-            <div class="d-flex justify-content-center">
-                <img src="{{asset('images/projects/p1/1.jpg')}}" style="max-height: 90vh">
+            <div class="d-flex row justify-content-center project-scheme">
+                <img src="{{asset($portfolios[0]['main_images'])}}">
             </div>
-            <div class=" bg-light ">
-                <div class="container-fluid col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10" style="min-height: 20vh">
-                <h1 class="fs-1 text-body"></h1>
-                    <p class="fs-5 text-body">
-                        Дизайн интерьера загородного дома в КП Горный щит, общей площадью 82 м².
-                    </p>
+            <div class="d-flex justify-content-center bg-light flex-wrap" style="min-height: 85vh">
+                <div class="project-card col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 position-relative" style="min-height: 85vh">
+                    <div class="project-information row d-flex align-items-center" style="height: 100%">
+                        <div style="position: absolute; top: 0; width: 100%; height: 100%; background-color: #FFFFFF; opacity: 0.7;"></div>
+                        <div class="col d-flex justify-content-center align-items-center" style="opacity: 0.5">
+                            <img src="{{asset('images/icons/main_index_logo.png')}}" height="90">
+                        </div>
+                        <h1 class="fs-1 text-body align-self-center text-center" style="z-index: 2">
+                            {{$portfolios[0]['name']}}
+                        </h1>
+                        <p class="text-center text-body fs-3" style="z-index: 2">{{$portfolios[0]['options']}}</p>
+                        <script src="https://yastatic.net/share2/share.js"></script>
+                        <div class="ya-share2 align-self-center d-flex justify-content-center" data-curtain data-size="m" data-shape="round" data-color-scheme="blackwhite" data-services="messenger,vkontakte,odnoklassniki,telegram,twitter,viber,whatsapp">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-scheme col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center " style="max-height: 85vh">
+                        <img src="{{asset($portfolios[0]['scheme_images'])}}" alt=""/>
                 </div>
             </div>
-            <div class="plugin fool-window-width d-flex justify-content-center flex-wrap">
-                @for($i = 1; $i <= 7; $i++)
-                    <div class="overflow-hidden">
-                        <img src="{{asset('images/projects/p1/'. $i .'.jpg')}}">
+            <div class="plugin">
+                @foreach(json_decode($portfolios[0]['images'],true) as $images)
+                    <div class="album-item">
+                        <img src="{{asset($images)}}">
                     </div>
-                @endfor
+                @endforeach
             </div>
-            <div id="album" class="fool-window-width d-flex justify-content-center flex-wrap aspect-ratio-box zoom-img">
+            <div id="album" class= "d-flex row justify-content-center flex-wrap aspect-ratio-box zoom-img">
 
             </div>
-            <hr/>
-            <div id="book" class="fool-window-width d-flex justify-content-center flex-wrap zoom-img">
+            <div id="book" class=" d-flex justify-content-center flex-wrap zoom-img">
 
             </div>
         <div class="bg-light">

@@ -38,8 +38,10 @@ Route::get('/admin/portfolios/view/', [ControllerPortfolio::class, 'adminIndex']
 Route::get('/admin/create/portfolio/', function () {
     return view('/admin/adminPortfolio');
 })->middleware('auth');
+
 Route::post('/create/portfolio/', [ControllerPortfolio::class, 'createPortfolio'])
     ->name('create.portfolio');
+Route::get('/delete/portfolio/{id}', [ControllerPortfolio::class, 'deletePortfolio'])->name('admin.delete.portfolio')->middleware('auth');
 
 
 Auth::routes();

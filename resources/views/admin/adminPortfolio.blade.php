@@ -58,9 +58,9 @@
                 </div>
             </div>
             <div class="mb-3 row">
-                <label for="inputOptions" class="col-sm-2 col-form-label">Описание</label>
+                <label for="inputOptions" class="col-sm-2 col-form-label">Площадь помещения</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputOptions" name="options">
+                    <input type="text" class="form-control" id="inputOptions" name="options" placeholder="S=25.5m2">
                 </div>
             </div>
             <div class="mb-3 row">
@@ -72,7 +72,16 @@
             <div class="row">
                 <div class="input-file-row">
                     <label class="input-file">
-                        <input type="file" name="images" accept="image/*">
+                        <input type="file" name="files[]" multiple accept="image/*">
+                        <span>Выберите картинки для галереи</span>
+                    </label>
+                    <div class="input-file-list"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-file-row">
+                    <label class="input-file">
+                        <input type="file" name="main_images" accept="image/*">
                         <span>Выберите главную картинку</span>
                     </label>
                     <div class="input-file-list"></div>
@@ -81,12 +90,12 @@
             <div class="row">
                 <div class="input-file-row">
                     <label class="input-file">
-                        <input type="file" name="main_images[]" multiple accept="image/*">
-                        <span>Выберите картинки для галереи</span>
+                        <input type="file" name="scheme" accept="image/*">
+                        <span>Выберите схему</span>
                     </label>
                     <div class="input-file-list"></div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Добавить проект</button>
         </form>
     </body>

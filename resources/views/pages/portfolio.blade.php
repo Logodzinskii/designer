@@ -27,7 +27,7 @@
                 @foreach($allportfolio as $portfolio)
                     <div class="owl-item slider-up-info col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4  p-0">
                         <div class="card bg-primary zoom-img" style=" position: relative">
-                            <img  src="{{asset($portfolio->images)}}" width="auto" height="400"  />
+                            <img  src="{{asset($portfolio->main_images)}}" width="auto" height="400"  />
                             <div class="card-body upper row">
                                 <h3 class="fs-3 col-10">{{$portfolio->name}}</h3>
                                 <a href="/project/{{$portfolio->category}}/{{$portfolio->id}}" class="col-2 transition">
