@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-end align-items-end" >
-            <div class="bg-light square-content">
+            <div class="bg-warning square-content">
                 <div class="row d-flex align-items-center" style="height: 100%;">
                     <div style="position: absolute; top: 0; width: 100%; height: 100%; opacity: 0.7;">
 
@@ -62,7 +62,7 @@
                         <img src="{{asset('images/icons/main_index_logo.png')}}" height="60">
                     </div>
                     <h1 class="fs-1 text-body align-self-center text-center" style="z-index: 2">
-                        <a href="">ЗАКАЗАТЬ ПРОЕКТ</a>
+                        <a href="" class="text-body">ЗАКАЗАТЬ ПРОЕКТ</a>
                     </h1>
                     <script src="https://yastatic.net/share2/share.js"></script>
                     <div class="ya-share2 align-self-center d-flex justify-content-center" data-curtain data-size="m" data-shape="round" data-color-scheme="blackwhite" data-services="messenger,vkontakte,odnoklassniki,telegram,twitter,viber,whatsapp">
