@@ -346,3 +346,44 @@ img.calc-height {
     max-height: 100%;
     object-fit: cover;
 }
+
+.square {
+    position: relative;
+    width: 100%;
+
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.square-content {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    padding: 15px;
+}
+.square-content ul{
+    max-height: 19vh;
+    overflow-y: auto;
+}
+.square-content ul::-webkit-scrollbar{
+    width: 5px;
+
+}
+.square-content ul::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #b89535;
+    border: 1px solid white;
+}
+.square-content ul::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #f9f9fd;
+}
+.square-content li {
+    font-size: 75% !important;
+
+}
+

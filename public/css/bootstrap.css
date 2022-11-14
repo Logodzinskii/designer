@@ -107,6 +107,26 @@ h2, .h2 {
     h2, .h2 {
         font-size: calc(0.6rem + 0.7vw); ;
     }
+    .square{
+        margin-bottom: 10px;
+    }
+    .square-content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+    .square-content ul{
+        max-height: 25vh;
+        overflow-y: auto;
+    }
+    .square-content ul li{
+        font-size: 90%;
+    }
+    .square-content .btn{
+
+        width: 80%;
+    }
 }
 @media (min-width: 465px) and (max-width: 768px) {
     .fool-window-width{
