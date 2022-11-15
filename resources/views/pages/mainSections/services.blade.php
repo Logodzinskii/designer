@@ -9,10 +9,45 @@
             <div class="bg-warning square-content d-flex row" >
                 <p class="fs-3 text-body">ДИЗАЙН <br/> ПРОЕКТ</p>
                 <ul class="d-flex row align-items-baseline list-unstyled">
-                    <li>— Замер помещения</li>
-                    <li>— Разработка планировочных решений</li>
-                    <li>— 3D визуализация помещений</li>
-                    <li>— Техническая документация</li>
+                    <li class="d-flex justify-content-start">
+                        — Замер помещения
+                        <span class="bg-info rounded-circle d-flex justify-content-center align-items-center" style="cursor:pointer;margin-left:10px; width: 20px;height: 20px; display: block;"
+                              data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
+                        — Встреча с дизайнером на объекте<br>
+                        — Фото и видеофиксация помещений<br>
+                        — Составление технического задания">
+                            i
+                        </span>
+                    </li>
+                    <li class="d-flex justify-content-start">
+                        — Разработка планировочных решений
+                        <span class="bg-info rounded-circle d-flex justify-content-center align-items-center" style="cursor:pointer;margin-left:10px; width: 20px;height: 20px; display: block;"
+                              data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
+                        — Обмерный план - отражает корректные замеры Вашей квартиры с указанием расположения всех коммуникаций<br>
+                        — План перепланировки стен - (если предусмотрено проектом)<br>
+                        — План расстановки мебели с размерами">
+                            i
+                        </span>
+                    </li>
+                    <li class="d-flex justify-content-start">
+                        — 3D визуализация помещений
+                        <span class="bg-info rounded-circle d-flex justify-content-center align-items-center" style="cursor:pointer;margin-left:10px; width: 20px;height: 20px; display: block;"
+                              data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
+                            —  Реалистичная визуализация будущего интерьера<br>
+                            —  Сочетание форм, цветов, текстур, геометрии">
+                            i
+                        </span>
+                    </li>
+                    <li class="d-flex justify-content-start">
+                        — Техническая документация
+                        <span class="bg-info rounded-circle d-flex justify-content-center align-items-center" style="cursor:pointer;margin-left:10px; width: 20px;height: 20px; display: block;"
+                              data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
+                        — Согласование спецификации и последующая корректировка без отхождения от утвержденной 3D визуализации<br>
+                        — График поставки от поставщиков по каждой согласованной позиции в GooglDisk<br>
+                        — Подготовка и сбор всех финишных отделочных материалов у подрядчиков или у нас в офисе<br>">
+                            i
+                        </span>
+                    </li>
                     <li>— Комплектация проекта</li>
                     <li>— Смета строительных работ</li>
                     <li>— Состав материалов с добавлением, мебель и оборудование, и где закупка!</li>
@@ -39,13 +74,47 @@
             <div class="bg-info square-content row align-items-baseline" >
                 <p class="fs-3 text-white">АВТОРСКИЙ <br/> НАДЗОР</p>
                 <ul class="d-flex row align-items-baseline list-unstyled">
-                    <li>— Еженедельное посещение объекта</li>
-                    <li>— Надзор за начальными строительно-отделочными работами</li>
+                    <li class="d-flex justify-content-start">
+                        — Еженедельное посещение объекта
+                    <span class="bg-warning rounded-circle d-flex justify-content-center align-items-center" style="cursor:pointer;margin-left:10px; width: 20px;height: 20px; display: block;"
+                          data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
+                        — Выезды на объект для уточнения размеров после сноса старых и возведения новых перегородок, после выравнивания стен, установки дверных полотен и коробов<br>
+                        — Выезды на объект для корректировки проекта и внесения изменений в техническую документацию<br>
+                        — Оперативное решение вопросов по изменениям и дополнениям в проекте">
+                            i
+                        </span>
+                    </li>
+                    <li class="d-flex justify-content-start">
+                        — Надзор за начальными строительно-отделочными работами
+                        <span class="bg-warning rounded-circle d-flex justify-content-center align-items-center" style="cursor:pointer;margin-left:10px; width: 20px;height: 20px; display: block;"
+                              data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
+                        — Надзор за соответствием строительно-отделочных работ по проекту или отдельным его частям, таких как: укладка паркета, стыковка узора керамогранита, поклейка обоев, покраска и декорирование стен (фактур, текстур)<br>
+                        — Надзор за соответствием цветовой гаммы утвержденному цветовому решению<br>
+                        — Надзор за расстановкой мебели, оборудования и декоративных элементов<br>
+                        — Необходимое общение с прорабом на объекте и по телефону, консультации по всем предоставленным чертежам<br>">
+                            i
+                        </span>
+                    </li>
                     <li>— Проверка проектной документации подрядных организаций</li>
                     <li>— Контроль исполнительской деятельности подрядных организаций</li>
-                    <li>— Предоставление прибыли о выполненных работах на объекте</li>
+                    <li class="d-flex justify-content-start">
+                        — Предоставление прибыли о выполненных работах на объекте
+                        <span class="bg-warning rounded-circle d-flex justify-content-center align-items-center" style="cursor:pointer;margin-left:10px; width: 20px;height: 20px; display: block;"
+                              data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
+                        —  Переговоры с подрядными организациями-поставляющие изделия или отдельные материалы на объект: мебель, световое оборудование, отделочные материалы<br>
+                        —  Надзор за расстановкой мебели, оборудованием и декоративных элементов<br>">
+                            i
+                        </span>
+                    </li>
                     <li>— Оперативное решение спорных вопросов</li>
-                    <li>— Доукомплектация объекта</li>
+                    <li class="d-flex justify-content-start">
+                        — Доукомплектация объекта
+                        <span class="bg-warning rounded-circle d-flex justify-content-center align-items-center" style="cursor:pointer;margin-left:10px; width: 20px;height: 20px; display: block;"
+                              data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
+                        — Индивидуальное сопровождение в подборе и закупе чистовых материалов и мебели">
+                            i
+                        </span>
+                    </li>
                     <li>— Профессиональная фотофиксация готового интерьера
                         (с семьей)</li>
                 </ul>
