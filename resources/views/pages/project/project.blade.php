@@ -45,12 +45,14 @@
                         for(let i=0 ; i<=(arr.length/2); i+=2)
                         {
                             $('#book').append('<div>');
-                            $('#book').children().last().addClass('d-flex justify-content-between flex-wrap books');
+                            $('#book').children().last().addClass('d-flex fool-window-width justify-content-between flex-wrap books');
                             $.each(arr.slice(i,i+2),function(index, value){
                                 console.log(value);
                                 $('#book').children().last().append('<div>');
-                                $('#book').children().last().children().addClass('col-6 aspect-ratio-box p-0 m-0');
+                                $('#book').children().last().children().addClass('col-6 square');
+
                                 $('#book').children().last().children().last().append(value);
+                                $('#book').children().last().children().last().children().addClass('square-content-project');
                                 console.log(i);
                             });
                             sum++;
