@@ -1,5 +1,5 @@
-<section class="bg-primary fool-window-width d-flex justify-content-center align-items-center row flex-wrap" style="margin-bottom: 100px">
-    <div id="projects" class="compressed-window-width d-flex align-self-center fs-1">
+<section class="bg-primary marging-title fool-window-width d-flex justify-content-center align-items-center row flex-wrap">
+    <div class="compressed-window-width d-flex align-self-center fs-1">
         <div class="marging-title-border-bottom">
             ЭТАПЫ НАШЕГО СОТРУДНИЧЕСТВА
         </div>
@@ -33,5 +33,5 @@
             </div>
         @endfor
     </div>
-    <p class="marging-title"></p>
+    <div class="marging-title"></div>
 </section>

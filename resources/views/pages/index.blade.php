@@ -86,21 +86,14 @@
         <section class="main_image p-0 m-0" style="height: 100vh">
             <div class="container-fluid p-0 m-0 d-flex align-items-center justify-content-center align-items-center" style="height: 100vh" >
                 <div class="p-0 m-0 row d-flex align-content-around" style="height: 80%">
-                    <div class="row p-0 m-0">
-                        <div class="col d-flex justify-content-center">
-                            <img src="{{asset('images/icons/main_index_logo.png')}}" width="180">
+                    <div class="row text-title d-flex align-items-center justify-content-center text-body">
+                        <div style="width: 180px; height: 30vh">
+                            <img src="{{asset('images/icons/main_index_logo.png')}}" width="180" height="80">
                         </div>
-                    </div>
-                    <div class="row p-0 m-0">
-                        <div class="col text-center text-body">
-                            <h1>РАЗРАБОТКА ИНДИВИДУАЛЬНОГО <br/>
+                            <h1 class="text-center">РАЗРАБОТКА ИНДИВИДУАЛЬНОГО <br/>
                                 ДИЗАЙН-ПРОЕКТА
                             </h1>
-                            <p>Создаем стильный и современный дизайн!</p>
-                        </div>
-                    </div>
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                        <div class="btn btn-primary fs-6">Узнать стоимость проекта</div>
+                            <p class="text-center">Создаем стильный и современный дизайн!</p>
                     </div>
                 </div>
             </div>

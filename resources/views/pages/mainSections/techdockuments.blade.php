@@ -1,4 +1,4 @@
-<section class="bg-light bg-primary fool-window-width d-flex justify-content-center align-items-center row flex-wrap" style="margin-bottom: 100px">
+<section class="bg-light bg-primary fool-window-width d-flex justify-content-center align-items-center row flex-wrap">
     <div id="projects" class="compressed-window-width d-flex align-self-center fs-1 marging-title">
         <div class="text-body marging-title-border-bottom">
             ПОСМОТРЕТЬ ПРИМЕР ДИЗАЙН-ПРОЕКТА

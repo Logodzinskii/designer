@@ -94,9 +94,11 @@
     transition: 0.5s;
     z-index: 2;
 }
-
+.text-title{
+    font-size: 200% !important;
+}
 .marging-title{
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 .zoom-img img{
     padding: 5px;
@@ -317,7 +319,7 @@ img.calc-height {
 
 .marging-title-border-bottom{
     border-bottom: 1px solid #FFFFFF;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 .aspect-ratio-box  img{
@@ -390,4 +392,6 @@ img.calc-height {
     font-size: 75% !important;
 
 }
-
+.upper-case{
+    text-transform: uppercase;
+}

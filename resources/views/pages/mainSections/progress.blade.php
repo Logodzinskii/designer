@@ -21,13 +21,13 @@
                 </div>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-around flex-wrap">
-                <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center " style="width:100%">
-                    <p class="text-body col-3 fs-1 text-start">&nbsp;&nbsp;8</p>
-                    <p class="text-dark col-9 fs-6 text-start">реализованных проектов ежегодно</p>
-                </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center" style="width:100%">
                     <p class="text-body col-3 fs-1 text-start">10</p>
                     <p class="text-dark col-9 fs-6 text-start">созданных дизайн-проектов ежегодно</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center " style="width:100%">
+                    <p class="text-body col-3 fs-1 text-start">08</p>
+                    <p class="text-dark col-9 fs-6 text-start">реализованных проектов ежегодно</p>
                 </div>
             </div>
         </div>
