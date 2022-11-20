@@ -2,7 +2,7 @@
     <div class="fool-window-width bg-light d-flex justify-content-center align-items-center">
         <div class="compressed-window-width bg-primary" style="margin-top: 50px; margin-bottom: 50px">
             <form>
-                <p class="fs-4">ЗАПОЛНИТЬ</p>
+                <p class="fs-4 text-dark p-3">ЗАПОЛНИТЬ</p>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -158,8 +158,8 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-around form-navigation" style="margin-top: 20px; margin-bottom: 20px">
-                    <button class="btn btn-outline-secondary form-prev" disabled>Назад</button>
-                    <button class="btn btn-outline-primary form-next" disabled>Дальше</button>
+                    <button class="btn btn-outline-secondary form-prev" style="width:100px; padding-right: 25px; padding-left: 25px" disabled>Назад</button>
+                    <button class="btn btn-outline-primary form-next" style="width:100px;" disabled>Дальше</button>
                 </div>
             </form>
         </div>
