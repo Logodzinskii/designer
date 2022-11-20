@@ -104,6 +104,12 @@ h2, .h2 {
         padding-right: 10px;
         padding-left: 10px;
     }
+    /*.difference-header h2{
+        font-size: calc(70% - 0.9vw) !important;
+    }
+    .difference-body p{
+        font-size: calc(90% - 0.7vw) !important;
+    }*/
     h2, .h2 {
         font-size: calc(0.6rem + 0.7vw); ;
     }
@@ -133,8 +139,14 @@ h2, .h2 {
         padding-right: 10px;
         padding-left: 10px;
     }
+    /*.difference-header h2{
+        font-size: calc(20% + 1.6vw) !important;
+    }
+    .difference-body p{
+        font-size: calc(45% + 0.8vw) !important;
+    }*/
     h2, .h2 {
-        font-size: calc(0.6rem + 1.7vw); ;
+        font-size: calc(0.6rem + 1.2vw); ;
     }
 }
 @media (min-width: 768px) and (max-width: 920px) {

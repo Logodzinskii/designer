@@ -438,3 +438,55 @@ img.calc-height {
     background-color: black;
     opacity: 0;
 }
+.difference{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 100%;
+
+}
+.difference-body{
+    position: absolute;
+    top: -100%;
+    transition: top 1s;
+    display: block;
+    border: 1px solid #b89535;
+    min-height: 60%;
+}
+.difference-header{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    min-height: 123px;
+    width: 100%;
+    border: 2px #212121;
+    background-color: #212121;
+    transition: background-color 1s;
+    z-index: 2;
+    border-right: 1px solid #b89535;
+    border-left: 1px solid #b89535;
+}
+.difference-header h2{
+    font-size: calc(38% + 0.9vw) !important;
+}
+/*.difference-body p{
+    font-size: calc(25% + 1vw) !important;
+}
+.difference:first-child .difference-header{
+    border-right: 1px solid #b89535;
+    border-left: 1px solid #212121;
+}*/
+.difference-header{
+    border-left: 1px solid #b89535;
+    border-right: 1px solid #b89535;
+}
+.difference:hover .difference-header{
+    color: #212121 !important;
+    background-color: #b89535;
+}
+.difference:hover .difference-body{
+    z-index: -1;
+    top:123px;
+    transition: top 1s;
+}

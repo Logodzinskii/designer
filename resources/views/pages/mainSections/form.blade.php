@@ -8,7 +8,7 @@
                 </div>
                 <div style="min-height: 50vh">
                     <div class="d-flex justify-content-around quest flex-wrap">
-                        <div class="fs-4 text-warning p-3 col-12">ВЫБЕРИТЕ ПОМЕЩЕНИЕ, ДЛЯ КОТОРОГО НУЖЕН ДИЗАЙН?</div>
+                        <div class="fs-4 text-dark p-3 col-12">ВЫБЕРИТЕ ПОМЕЩЕНИЕ, ДЛЯ КОТОРОГО НУЖЕН ДИЗАЙН?</div>
                         @php
                             $arr=['0','ДОМ', 'ОФИС', 'КВАРТИРА', 'СОВРЕМЕННЫЙ', 'NEO-ЛАССИКА', 'АМЕРИКАНСКИЙ'];
                         @endphp
