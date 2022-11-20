@@ -1,6 +1,6 @@
 <p class="marging-title"></p>
 <footer class="fool-window-width bg-light d-flex justify-content-around flex-wrap">
-    <div class="compressed-window-width marging-title d-flex justify-content-center flex-wrap" style="margin-bottom: 10vh">
+    <div class="compressed-window-width marging-title d-flex justify-content-center flex-wrap">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xl-6">
             <h2 class="text-white fs-1 text-body" style="padding-bottom: 40px; ">ВОПЛОТИМ ВАШИ ИДЕИ ВМЕСТЕ</h2>
             <p class="text-body"><b>Gallery 11, Студенческая ул., 11, Кировский район,

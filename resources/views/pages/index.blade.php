@@ -110,5 +110,5 @@
         @include('pages/mainSections/interview')
         @include('pages/mainSections/personal')
         @include('pages/mainSections/trust')
-        <!--@include('pages/mainSections/footer')-->
+        @include('pages/mainSections/footer')
     </body>
