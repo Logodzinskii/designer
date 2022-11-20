@@ -6234,10 +6234,10 @@ textarea.form-control-lg {
 }
 
 .link-dark {
-  color: #212529;
+  color: #212121!important;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #1a1e21;
+  color: #212121;
 }
 
 .ratio {
