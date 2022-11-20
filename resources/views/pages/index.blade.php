@@ -35,16 +35,16 @@
                         ''],
                     responsive:{
                         0:{
-                            items:1
+                            items:2
                         },
                         600:{
                             items:2
                         },
                         1000:{
-                            items:3
+                            items:5
                         },
                         1800:{
-                            items:4
+                            items:5
                         }
 
                     }
@@ -90,9 +90,9 @@
                         <div style="width: 180px; height: 30vh">
                             <img src="{{asset('images/icons/main_index_logo.png')}}" width="180" height="80">
                         </div>
-                            <h1 class="text-center">РАЗРАБОТКА ИНДИВИДУАЛЬНОГО <br/>
+                            <h2 class="text-center">РАЗРАБОТКА ИНДИВИДУАЛЬНОГО <br/>
                                 ДИЗАЙН-ПРОЕКТА
-                            </h1>
+                            </h2>
                             <p class="text-center">Создаем стильный и современный дизайн!</p>
                     </div>
                 </div>
@@ -107,8 +107,7 @@
         @include('pages/mainSections/positive')
         @include('pages/mainSections/services')
         <p class="marging-title"></p>
-        @include('pages/mainSections/interview')
-        @include('pages/mainSections/personal')
         @include('pages/mainSections/trust')
+        @include('pages/mainSections/personal')
         @include('pages/mainSections/footer')
     </body>
