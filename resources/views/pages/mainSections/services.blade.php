@@ -7,7 +7,7 @@
     <div class="compressed-window-width d-flex justify-content-between justify-content-center flex-wrap" style="min-height: 100%">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
             <div class="bg-warning square-content d-flex row justify-content-end" >
-                <p class="fs-3 text-body">ДИЗАЙН <br/> ПРОЕКТ</p>
+                <p class="fs-3 text-body">ДИЗАЙН ПРОЕКТ</p>
                 <ul class="d-flex row align-items-baseline list-unstyled p-0 m-0">
                     <li class="d-flex justify-content-start">
                         <span style="cursor:pointer;"
@@ -53,7 +53,7 @@
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
             <div class="bg-info square-content d-flex row justify-content-end" >
-                <p class="fs-3 text-white">БЕСПЛАТНАЯ <br/> КОНСУЛЬТАЦИЯ</p>
+                <p class="fs-3 text-white">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</p>
                 <ul class="d-flex row align-items-baseline list-unstyled p-0 m-0">
                     <li>Разберем планировочное решение квартиры</li>
                     <li>Определим стиль будущего интерьера</li>
@@ -68,7 +68,7 @@
     <div class="compressed-window-width d-flex justify-content-between d-flex justify-content-center flex-wrap">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
             <div class="bg-info square-content d-flex row justify-content-end" >
-                <p class="fs-3 text-white">АВТОРСКИЙ <br/> НАДЗОР</p>
+                <p class="fs-3 text-white">АВТОРСКИЙ НАДЗОР</p>
                 <ul class="d-flex row align-items-baseline list-unstyled p-0 m-0">
                     <li class="d-flex justify-content-start">
                     <span style="cursor:pointer;"
@@ -114,7 +114,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
-            <div class="bg-warning square-content d-flex row align-items-center justify-content-end" >
+            <div class="bg-warning square-content d-flex row align-items-start justify-content-end">
                 <p class="fs-3 text-body">ХОТИТЕ НАЧАТЬ ПРОЕКТ?</p>
                 <ul class="d-flex row align-items-baseline list-unstyled p-0 m-0">
                     <li class="d-flex justify-content-start">Оставьте заявку,</li>
