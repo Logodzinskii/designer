@@ -1,5 +1,26 @@
 $(document).ready(function() {
 
+    var $element = $('.difference');
+    let counter = 0;
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop() + $(window).height();
+        //Если скролл до конца елемента
+        var offset = $element.offset().top + $element.height()/2;
+        //Если скролл до начала елемента
+        //var offset = $element.offset().top
+
+        if (scroll > offset && counter == 0) {
+           $('.difference-header').attr('style', 'background-color: #b89535; color: #212121 !important; border-left:1px solid #212121; border-right: 1px solid #212121;');
+           $('.difference-body').attr('style','z-index: -1;\n' +
+               '    top:123px;\n' +
+               '    transition: top 1s;')
+            //$('#block').fadeIn(500);
+            counter = 1;
+        }
+    });
+
+
+
     $(".compressed-window-width").addClass('col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-8');
     $(".fool-window-width").addClass('col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12');
 

@@ -20,8 +20,8 @@
                 ];
     @endphp
 
-    <div class="compressed-window-width d-flex flex-wrap justify-content-center" style="min-height: 60vh;">
-            <div class="d-flex justify-content-between col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="height: 60vh; margin-top: 10vh;">
+    <div id="positive" class="compressed-window-width d-flex flex-wrap justify-content-center" style="min-height: 85vh;">
+            <div class="d-flex justify-content-between col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="height: 85vh; margin-top: 10vh;">
                 <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 difference" >
                     <div class="text-dark fs-4 d-flex align-items-center difference-header text-center" style="padding-left: 5px; padding-right: 5px">
                         <h2>{{$arr[0]['title']}}</h2>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-between col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="height: 60vh; margin-top: 10vh;">
+            <div class="d-flex justify-content-between col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="height: 85vh; margin-top: 10vh;">
                 <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 difference" >
                     <div class="text-dark fs-4 d-flex align-items-center difference-header text-center" style="padding-left: 5px; padding-right: 5px">
                         <h2>{{$arr[2]['title']}}</h2>

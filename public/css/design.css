@@ -481,12 +481,12 @@ img.calc-height {
     border-left: 1px solid #b89535;
     border-right: 1px solid #b89535;
 }
-.difference:hover .difference-header{
+.difference-header-invert{
     color: #212121 !important;
     background-color: #b89535;
 }
-.difference:hover .difference-body{
+.difference-body-invert{
     z-index: -1;
     top:123px;
-    transition: top 1s;
+    transition: top 2s;
 }
