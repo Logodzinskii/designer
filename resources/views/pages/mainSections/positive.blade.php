@@ -3,10 +3,10 @@
         $arr=[
             ['title'=>'СКОРОСТЬ РЕАЛИЗАЦИИ',
              'body'=>
-             '— До 70 кв² - 30 р.д.;
-              — До 100 кв²- 50 р. д.;
-              — До 150 кв² - 60 р. д.;
-              — 150 и более кв² - от 80 р. д.'],
+             'От 40-70 кв² - 30 рабочих дней;
+              От 70-100 кв²- 50 рабочих дней;
+              От 100-150 кв² - 60 рабочих дней;
+              От 150 кв² - от 80 рабочих дней '],
               ['title'=>'УЧЕТ ВСЕХ ТРЕБОВАНИЙ',
                'body'=>
                'Учет финансовых, стилистических требований клиента на этапе проектирования !'],
@@ -27,7 +27,10 @@
                         <h2>{{$arr[0]['title']}}</h2>
                     </div>
                     <div class="text-white fs-6 align-middle difference-body" style="padding-left: 5px; padding-right: 5px">
-                        <p>{{$arr[0]['body']}}</p>
+                        <p class="p-1 fs-6">От 40-70 кв² - 30 рабочих дней</p>
+                        <p class="p-1 fs-6">От 70-100 кв²- 50 рабочих дней</p>
+                        <p class="p-1 fs-6">От 100-150 кв² - 60 рабочих дней</p>
+                        <p class="p-1 fs-6">От 150 кв² - от 80 рабочих дней </p>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 difference" >
@@ -35,7 +38,7 @@
                         <h2>{{$arr[1]['title']}}</h2>
                     </div>
                     <div class="text-white fs-6 align-middle difference-body" style="padding-left: 5px; padding-right: 5px">
-                        <p>{{$arr[1]['body']}}</p>
+                        <p class="p-1 fs-6">{{$arr[1]['body']}}</p>
                     </div>
                 </div>
             </div>
@@ -45,7 +48,7 @@
                         <h2>{{$arr[2]['title']}}</h2>
                     </div>
                     <div class="text-white fs-6 align-middle difference-body" style="padding-left: 5px; padding-right: 5px">
-                        <p>{{$arr[2]['body']}}</p>
+                        <p class="p-1 fs-6">{{$arr[2]['body']}}</p>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 difference" >
@@ -53,7 +56,7 @@
                         <h2>{{$arr[3]['title']}}</h2>
                     </div>
                     <div class="text-white fs-6 align-middle difference-body" style="padding-left: 5px; padding-right: 5px">
-                        <p>{{$arr[3]['body']}}</p>
+                        <p class="p-1 fs-6">{{$arr[3]['body']}}</p>
                     </div>
                 </div>
             </div>

@@ -6,9 +6,9 @@
     </div>
     <div class="compressed-window-width d-flex justify-content-between justify-content-center flex-wrap" style="min-height: 100%">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
-            <div class="bg-warning square-content" >
+            <div class="bg-warning square-content " style="height: 95%">
                 <p class="fs-3 text-body">ДИЗАЙН ПРОЕКТ</p>
-                <ul class="d-flex row align-items-start list-unstyled" style="margin-bottom: 40px; height: 100%">
+                <ul class="list-unstyled fs-5" style="margin-bottom: 40px; height: 70%">
                     <li class="d-flex justify-content-start">
                         <span style="cursor:pointer;"
                               data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
@@ -52,9 +52,9 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
-            <div class="bg-info square-content " >
+            <div class="bg-info square-content " style="height: 95%">
                 <p class="fs-3 text-white">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</p>
-                <ul class="d-flex row align-items-baseline list-unstyled" style="margin-bottom: 40px; height: 100%">
+                <ul class="list-unstyled fs-5" style="margin-bottom: 40px; height: 70%">
                     <li>Разберем планировочное решение квартиры</li>
                     <li>Определим стиль будущего интерьера</li>
                     <li>Производим прибыль дизайн проекта</li>
@@ -67,9 +67,9 @@
     </div>
     <div class="compressed-window-width d-flex justify-content-between d-flex justify-content-center flex-wrap">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
-            <div class="bg-info square-content" >
+            <div class="bg-info square-content " style="height: 95%">
                 <p class="fs-3 text-white">АВТОРСКИЙ НАДЗОР</p>
-                <ul class="d-flex row align-items-baseline list-unstyled" style="margin-bottom: 40px; height: 100%">
+                <ul class="list-unstyled fs-5" style="margin-bottom: 40px; height: 70%">
                     <li class="d-flex justify-content-start">
                     <span style="cursor:pointer;"
                           data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
@@ -114,9 +114,9 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
-            <div class="bg-warning square-content">
+            <div class="bg-warning square-content " style="height: 95%">
                 <p class="fs-3 text-body">ХОТИТЕ НАЧАТЬ ПРОЕКТ?</p>
-                <ul class="d-flex row align-items-baseline list-unstyled" style="margin-bottom: 40px; height: 100%">
+                <ul class="list-unstyled fs-5" style="margin-bottom: 40px; height: 70%">
                     <li class="d-flex justify-content-start">Оставьте заявку,</li>
                     <li>вам перезвонит руководитель студии,</li>
                     <li>чтобы ответить на все вопросы</li>

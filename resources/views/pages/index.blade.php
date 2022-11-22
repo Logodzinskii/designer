@@ -90,10 +90,10 @@
                         <div style="width: 180px; height: 30vh">
                             <img src="{{asset('images/icons/main_index_logo.png')}}" width="180" height="80">
                         </div>
-                            <h2 class="text-center">РАЗРАБОТКА ИНДИВИДУАЛЬНОГО <br/>
+                            <h1 class="text-center">РАЗРАБОТКА ИНДИВИДУАЛЬНОГО <br/>
                                 ДИЗАЙН-ПРОЕКТА
-                            </h2>
-                            <p class="text-center">Создаем стильный и современный дизайн!</p>
+                            </h1>
+                            <p class="h1 text-center upper-case">Создаем стильный и современный дизайн!</p>
                     </div>
                 </div>
             </div>

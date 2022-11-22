@@ -133,14 +133,17 @@ $(document).ready(function() {
                 $('.quest:eq(1) div').show();
                 $('.quest:not(.quest:eq(1)) div').hide();
                 $('.form-navigation .btn:eq(0)').prop("disabled", false);
+                $('.form-navigation .btn:eq(1)').prop("disabled", true);
                 break;
             case 40:
                 $('.quest:eq(2) div').show();
                 $('.quest:not(.quest:eq(2)) div').hide();
+                $('.form-navigation .btn:eq(1)').prop("disabled", true);
                 break;
             case 60:
                 $('.quest:eq(3) div').show();
                 $('.quest:not(.quest:eq(3)) div').hide();
+                $('.form-navigation .btn:eq(1)').prop("disabled", true);
                 break;
             case 80:
                 $('.quest:eq(4) div').show();
@@ -154,6 +157,7 @@ $(document).ready(function() {
                 $('#resFormContactName').html($("input[name='nameUser']").val());
                 $('#resFormContactEmail').html($("input[name='emailUser']").val());
                 $('#resFormContactTel').html($("input[name='telUser']").val());
+                $('.form-navigation .btn:eq(1)').prop("disabled", false);
                 break;
             case 100:
                 $('.quest:eq(5) div').show();
