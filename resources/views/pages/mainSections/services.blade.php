@@ -6,9 +6,9 @@
     </div>
     <div class="compressed-window-width d-flex justify-content-between justify-content-center flex-wrap" style="min-height: 100%">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
-            <div class="bg-warning square-content d-flex row justify-content-end" >
+            <div class="bg-warning square-content" >
                 <p class="fs-3 text-body">ДИЗАЙН ПРОЕКТ</p>
-                <ul class="d-flex row align-items-baseline list-unstyled p-0 m-0">
+                <ul class="d-flex row align-items-start list-unstyled" style="margin-bottom: 40px; height: 100%">
                     <li class="d-flex justify-content-start">
                         <span style="cursor:pointer;"
                               data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
@@ -48,28 +48,28 @@
                     <li>Смета строительных работ</li>
                     <li>Состав материалов с добавлением, мебель и оборудование, и где закупка!</li>
                 </ul>
-                <button class="btn btn-secondary align-self-end col-8">СКАЧАТЬ ПРИМЕР</button>
+                <button class="btn btn-secondary col-8" style="position: absolute; bottom: 10px; right: -10px;">СКАЧАТЬ ПРИМЕР</button>
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
-            <div class="bg-info square-content d-flex row justify-content-end" >
+            <div class="bg-info square-content " >
                 <p class="fs-3 text-white">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</p>
-                <ul class="d-flex row align-items-baseline list-unstyled p-0 m-0">
+                <ul class="d-flex row align-items-baseline list-unstyled" style="margin-bottom: 40px; height: 100%">
                     <li>Разберем планировочное решение квартиры</li>
                     <li>Определим стиль будущего интерьера</li>
                     <li>Производим прибыль дизайн проекта</li>
                     <li>Рекомендации от дизайнера</li>
                     <li>Ответим на ваши вопросы</li>
                 </ul>
-                <button class="btn btn-info align-self-end col-8">ЗАПИСАТЬСЯ</button>
+                <button class="btn btn-light col-8" style="position: absolute; bottom: 10px; right: -10px;">ЗАПИСАТЬСЯ</button>
             </div>
         </div>
     </div>
     <div class="compressed-window-width d-flex justify-content-between d-flex justify-content-center flex-wrap">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
-            <div class="bg-info square-content d-flex row justify-content-end" >
+            <div class="bg-info square-content" >
                 <p class="fs-3 text-white">АВТОРСКИЙ НАДЗОР</p>
-                <ul class="d-flex row align-items-baseline list-unstyled p-0 m-0">
+                <ul class="d-flex row align-items-baseline list-unstyled" style="margin-bottom: 40px; height: 100%">
                     <li class="d-flex justify-content-start">
                     <span style="cursor:pointer;"
                           data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="
@@ -110,18 +110,18 @@
                     <li>Профессиональная фотофиксация готового интерьера
                         (с семьей)</li>
                 </ul>
-                <button class="btn btn-info align-self-end col-8">25 000 Р/МЕС.</button>
+                <button class="btn btn-info align-self-end col-8" style="position: absolute; bottom: 10px; right: -10px;">25 000 Р/МЕС.</button>
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 square d-flex justify-content-start align-items-start" >
-            <div class="bg-warning square-content d-flex row align-items-start justify-content-end">
+            <div class="bg-warning square-content">
                 <p class="fs-3 text-body">ХОТИТЕ НАЧАТЬ ПРОЕКТ?</p>
-                <ul class="d-flex row align-items-baseline list-unstyled p-0 m-0">
+                <ul class="d-flex row align-items-baseline list-unstyled" style="margin-bottom: 40px; height: 100%">
                     <li class="d-flex justify-content-start">Оставьте заявку,</li>
                     <li>вам перезвонит руководитель студии,</li>
                     <li>чтобы ответить на все вопросы</li>
                 </ul>
-                <button class="btn btn-secondary align-self-end col-8">СКАЧАТЬ ПРИМЕР</button>
+                <button class="btn btn-secondary align-self-end col-8" style="position: absolute; bottom: 10px; right: -10px;">ЗАПИСАТЬСЯ</button>
             </div>
         </div>
     </div>
