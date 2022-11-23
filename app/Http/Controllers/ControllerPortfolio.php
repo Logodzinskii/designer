@@ -41,6 +41,7 @@ class ControllerPortfolio extends Controller
     public function showPortfolio($category, $id)
     {
         $portfolio = portfolio::where('id', $id)->get();
+
         return view('/pages/project/project', ['portfolios' => $portfolio]);
     }
 

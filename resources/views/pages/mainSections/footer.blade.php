@@ -13,13 +13,13 @@
             </p>
             <div class="d-flex justify-content-start align-items-center">
                 <a href="https://wa.me/89126880892" class="link-dark">
-                    <img src="images/icons/social/whatsapp-svgrepo-com.svg" alt="" width="30" height="30" />
+                    <img src="/images/icons/social/whatsapp-svgrepo-com.svg" alt="" width="30" height="30" />
                 </a>
                 <a href="https://www.instagram.com/vozhev_design/" class="link-dark">
-                    <img src="images/icons/social/instagram-icon-svgrepo-com.svg" alt="" width="28" height="28" />
+                    <img src="/images/icons/social/instagram-icon-svgrepo-com.svg" alt="" width="28" height="28" />
                 </a>
                 <a href="https://vk.com/design_vozhev" class="link-dark">
-                    <img src="images/icons/social/vk-alt-svgrepo-com.svg" alt="" width="30" height="30" />
+                    <img src="/images/icons/social/vk-alt-svgrepo-com.svg" alt="" width="30" height="30" />
                 </a>
             </div>
             <button class="btn btn-outline-primary fs-6 col-12 col-sm-12 col-md-12 col-lg-10 col-xl-6 col-xxl-6" >

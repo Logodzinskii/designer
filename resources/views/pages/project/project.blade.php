@@ -14,9 +14,10 @@
         <link rel="stylesheet" href={{ asset('css/bootstrap.css') }}>
         <script src="{{asset('js/bootstrap.bundle.js')}}"></script>
         <script src={{ asset('js/owl.carousel.min.js')}}></script>
-        <script src={{ asset('js/design.js')}}></script>
+    <script src={{ asset('/js/design.js')}}></script>
         <script type="text/javascript">
             $(document).ready(function() {
+
                 (function( $ ){
 
                     $.fn.myPlugin = function() {
@@ -26,23 +27,22 @@
                         // выражение $(this) будет эквивалентно $($('#element'));
                         var img = this.find('img');
                         var arr = [];
-                        img.each(function (i){
+                        img.each(function (){
                             var width_div = $(this).parent().parent().width();
                             var height_img = this.height;
                             var width_img = this.width;
                             if(width_img/height_img > 1){
                                 //альбомный формат
                                 $('#album').append('<div>');
-                                $('#album').addClass('d-flex row justify-content-between aspect-ratio-box flex-wrap p-0 m-0');
-                                $('#album').append(this);
+                                $('#album div:last').addClass('d-flex row justify-content-between aspect-ratio-box flex-wrap p-0 m-0 albums');
+                                $('#album div:last').append(this);
                             }else{
                                 //книжный
                                 arr.push(this);
                             }
                         })
-                        console.log(arr.length);
                         var sum = 0;
-                        for(let i=0 ; i<=(arr.length/2); i+=2)
+                        for(let i=0; i<=(arr.length/2); i+=2)
                         {
                             $('#book').append('<div>');
                             $('#book').children().last().addClass('d-flex fool-window-width justify-content-between flex-wrap books');
@@ -61,43 +61,17 @@
                             var elem_book = $('.books:eq('+i+')').clone(true);
                             $('.books:eq('+i+')').remove();
                             $('#album').children().eq(i+2).after(elem_book);
-                            console.log(sum);
+                        };
+                        var books = $('.books').length;
+                        var albums = $('.albums').length;
+
+                        if(albums > 2 && books > 1){
+                            $('.books:eq(0)').insertAfter($('.albums:eq(0)'));
                         }
                     };
                 })( jQuery );
             $(".plugin").myPlugin();
-
-
-
-            $(".owl-carousel").owlCarousel(
-                {
-
-                    margin:40,
-                    dots: false,
-                    autoplay:false,
-                    lazyLoad: true,
-                    loop: true,
-                    nav:true,
-                    navText: ['',
-                        ''],
-                    responsive:{
-                        0:{
-                            items:1
-                        },
-                        600:{
-                            items:2
-                        },
-                        1000:{
-                            items:3
-                        },
-                        1800:{
-                            items:4
-                        }
-
-                    }
-                }
-            );
-        });
+     });
     </script>
     </head>
     <body class="">
