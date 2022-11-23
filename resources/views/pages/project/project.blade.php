@@ -8,13 +8,13 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="icon" type="image/png" href="{{ asset('images/logo/logo.png') }}"/>
         <link href="https://fonts.googleapis.com/css2?family=TTCommons:wght@400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href={{ asset('css/owl.carousel.min.css') }}>
-        <link rel="stylesheet" href={{ asset('css/owl.theme.default.min.css') }}>
-        <link rel="stylesheet" href={{ asset('css/design.css') }}>
-        <link rel="stylesheet" href={{ asset('css/bootstrap.css') }}>
-        <script src="{{asset('js/bootstrap.bundle.js')}}"></script>
-        <script src={{ asset('js/owl.carousel.min.js')}}></script>
-    <script src={{ asset('/js/design.js')}}></script>
+        <link rel="stylesheet" href={{ asset('/public/css/owl.carousel.min.css') }}>
+        <link rel="stylesheet" href={{ asset('/public/css/owl.theme.default.min.css') }}>
+        <link rel="stylesheet" href={{ asset('/public/css/design.css') }}>
+        <link rel="stylesheet" href={{ asset('/public/css/bootstrap.css') }}>
+        <script src="{{asset('/public/js/bootstrap.bundle.js')}}"></script>
+        <script src={{ asset('/public/js/owl.carousel.min.js')}}></script>
+    <script src={{ asset('/public/js/design.js')}}></script>
         <script type="text/javascript">
             $(document).ready(function() {
 
