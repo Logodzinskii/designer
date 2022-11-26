@@ -33,9 +33,17 @@
                             var width_img = this.width;
                             if(width_img/height_img > 1){
                                 //альбомный формат
-                                $('#album').append('<div>');
-                                $('#album div:last').addClass('d-flex row justify-content-between aspect-ratio-box flex-wrap p-0 m-0 albums');
-                                $('#album div:last').append(this);
+                                var albumImg = $('<div>',{
+                                    'class': 'd-flex row justify-content-between aspect-ratio-box flex-wrap p-0 m-0 albums',
+                                });
+                                console.log(this.src);
+                                var Img=$('<img>',{
+                                    src: this.src,
+                                    alt: '',
+                                });
+                                albumImg.append(Img);
+                                $('#album').append(albumImg);
+
                             }else{
                                 //книжный
                                 arr.push(this);
@@ -47,18 +55,18 @@
                             $('#book').append('<div>');
                             $('#book').children().last().addClass('d-flex fool-window-width justify-content-between flex-wrap books');
                             $.each(arr.slice(i,i+2),function(index, value){
-                                console.log(value);
+
                                 $('#book').children().last().append('<div>');
                                 $('#book').children().last().children().addClass('col-6 square');
 
                                 $('#book').children().last().children().last().append(value);
                                 $('#book').children().last().children().last().children().addClass('square-content-project');
-                                console.log(i);
+
                             });
                             sum++;
                         }
                         for(let i=0; i<=sum; i++){
-                            var elem_book = $('.books:eq('+i+')').clone(true);
+                            var elem_book = $('.books:eq('+i+')').clone();
                             $('.books:eq('+i+')').remove();
                             $('#album').children().eq(i+2).after(elem_book);
                         };
@@ -69,14 +77,16 @@
                             $('.books:eq(0)').insertAfter($('.albums:eq(0)'));
                         }
                     };
+
                 })( jQuery );
-            $(".plugin").myPlugin();
+           $(".plugin").myPlugin();
+           $(".plugin").empty();
      });
     </script>
     </head>
     <body class="">
         @include('pages/mainSections/header')
-        <section class="bg-primary fool-window-width d-flex row justify-content-center zoom-img">
+        <section class="bg-primary fool-window-width d-flex row justify-content-center zoom-img mains">
             <div class="d-flex row justify-content-center project-scheme">
                 <img src="{{asset($portfolios[0]['main_images'])}}">
             </div>
