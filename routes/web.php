@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ControllerPortfolio;
+use App\Http\Controllers\ControllerIndexPage;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +15,8 @@ use App\Http\Controllers\ControllerPortfolio;
 |
 */
 
-Route::get('/', function () {
-    return view('/pages/index');
-});
+Route::get('/', [ControllerIndexPage::class,'index']);
+
 Route::get('/project/{category}/{id}', [ControllerPortfolio::class, 'showPortfolio']);
 
 Route::get('/personal/', function () {

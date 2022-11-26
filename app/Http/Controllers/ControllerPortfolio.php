@@ -17,8 +17,13 @@ class ControllerPortfolio extends Controller
      */
     public function index()
     {
-        $portfolio = portfolio::all();
-        return view('/pages/portfolio',['allportfolio' => $portfolio]);
+        $data=[];
+        $photo = portfolio::all();
+        $data[]=[
+            'photos'=>$photo,
+        ];
+
+        return view('/pages/portfolio',['content'=>$data]);
     }
     public function adminIndex()
     {
