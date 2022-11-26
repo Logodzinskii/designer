@@ -16,7 +16,7 @@
         <script src={{ asset('/public/js/owl.carousel.min.js')}}></script>
     <script src={{ asset('/public/js/design.js')}}></script>
         <script type="text/javascript">
-            $(document).ready(function() {
+            $(window).on('load', function() {
 
                 (function( $ ){
 
@@ -80,8 +80,8 @@
                     };
 
                 })( jQuery );
-           $(".plugin").myPlugin();
 
+           $(".plugin").myPlugin();
 
      });
     </script>
