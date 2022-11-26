@@ -48,6 +48,7 @@
                                 //книжный
                                 arr.push(this);
                             }
+                            img.remove();
                         })
                         var sum = 0;
                         for(let i=0; i<=(arr.length/2); i+=2)
@@ -80,7 +81,8 @@
 
                 })( jQuery );
            $(".plugin").myPlugin();
-           $(".plugin").empty();
+
+
      });
     </script>
     </head>
