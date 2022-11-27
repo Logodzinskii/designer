@@ -7,7 +7,7 @@
                 'contact'=>'Контакты',
                 ];
 @endphp
-<header class="fool-window-width upper-case">
+<header class="fool-window-width upper-case" style="margin-bottom: 80px">
     <nav class="p-0 m-0 navbar navbar-light navbar-expand-md navbar-expand-md fixed-top d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
             <div class="row col-12 d-flex justify-content-end ">
                     <button class="navbar-toggler rounded-circle bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" style="width: 60px; height: 60px">
