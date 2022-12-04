@@ -17,7 +17,7 @@ use App\Http\Controllers\ControllerIndexPage;
 
 Route::get('/', [ControllerIndexPage::class,'index']);
 
-Route::get('/project/{category}/{id}', [ControllerPortfolio::class, 'showPortfolio']);
+Route::get('/project/{category}/{url}', [ControllerPortfolio::class, 'showPortfolio']);
 
 Route::get('/personal/', function () {
     return view('/pages/personal');

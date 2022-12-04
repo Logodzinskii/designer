@@ -43,15 +43,17 @@ class ControllerPortfolio extends Controller
     /**
      * Возвращает Отдельно каждую работу
      */
-    public function showPortfolio($category, $id)
+    public function showPortfolio($category, $url)
     {
-        $portfolio = portfolio::where('id', $id)->get();
+        $portfolio = portfolio::where('url', $url)->get();
 
         return view('/pages/project/project', ['portfolios' => $portfolio]);
     }
 
     public function createPortfolio(Request $request)
     {
+        $portfolio = new portfolio();
+
         $arr = [
             'Дом' => 'home',
             'Квартира' => 'house',
@@ -96,8 +98,58 @@ class ControllerPortfolio extends Controller
         $portfolio->images =        json_encode($paths);
         $portfolio->main_images =   $pathPreview;
         $portfolio->scheme_images = $pathScheme;
+        $portfolio->url =           $this->chpuTrunslit($request->name);
         $portfolio->save();
         return \redirect('/admin/portfolios/view/');
+    }
+    protected function chpuTrunslit($string)
+    {
+        $translit = [
+            'а' => 'a',
+            'б' => 'b',
+            'в' => 'v',
+            'г' => 'g',
+            'д' => 'd',
+            'е' => 'e',
+            'ё' => 'e',
+            'ж' => 'zh',
+            'з' => 'z',
+            'и' => 'i',
+            'й' => 'j',
+            'к' => 'k',
+            'л' => 'l',
+            'м' => 'm',
+            'н' => 'n',
+            'о' => 'o',
+            'п' => 'p',
+            'р' => 'r',
+            'с' => 's',
+            'т' => 't',
+            'у' => 'u',
+            'ф' => 'f',
+            'х' => 'h',
+            'ц' => 'ts',
+            'ч' => 'ch',
+            'ш' => 'sh',
+            'щ' => 'shch',
+            'ъ' => '',
+            'ы' => 'y',
+            'ь' => '',
+            'э' => 'e',
+            'ю' => 'yu',
+            'я' => 'ya',
+            ' ' => '-',
+            '"' => '',
+            '.' => '',
+            '@' => '',
+            '&' => '',
+            '?' => '',
+            '«' => '',
+            '»' => '',
+        ];
+
+        $string = mb_strtolower($string);
+        return strtr($string, $translit);
     }
     public function deletePortfolio($id)
     {

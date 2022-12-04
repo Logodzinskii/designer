@@ -21,5 +21,6 @@ class portfolio extends Model
         'main_images',
         'images',
         'scheme_images',
+        'url',
     ];
 }
